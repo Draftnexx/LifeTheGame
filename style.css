@@ -1,0 +1,356 @@
+:root {
+  --bg: #121212;
+  --card-bg: #1e1e1e;
+  --text-main: #e0e0e0;
+  --text-dim: #a0a0a0;
+
+  /* Rarity Colors */
+  --common: #b0b0b0;
+  --rare: #bb86fc;
+  --ultra: #ffd700;
+
+  --accent: #00ff9d;
+  --overlay-bg: #2d2d2d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  /* Prevent scroll on mobile during animations */
+}
+
+.app-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Header & Stats */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #333;
+}
+
+.brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.fake-progress {
+  font-weight: bold;
+  color: var(--ultra);
+  font-size: 0.9rem;
+}
+
+.stats-bar {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Main Card */
+.card-wrapper {
+  perspective: 1000px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 40px 20px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+  font-size: 1.6rem;
+  margin: 15px 0 10px;
+  color: #fff;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+/* Rarity Styling */
+.rarity-pill {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Dynamic Rarity Classes applied by JS */
+.card[data-rarity="common"] {
+  border-color: #444;
+}
+
+.card[data-rarity="common"] .rarity-pill {
+  background: #333;
+  color: var(--common);
+}
+
+.card[data-rarity="rare"] {
+  border-color: var(--rare);
+  box-shadow: 0 0 15px rgba(187, 134, 252, 0.2);
+}
+
+.card[data-rarity="rare"] .rarity-pill {
+  background: rgba(187, 134, 252, 0.2);
+  color: var(--rare);
+}
+
+.card[data-rarity="rare"] h2 {
+  color: var(--rare);
+}
+
+.card[data-rarity="ultra"] {
+  border-color: var(--ultra);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+}
+
+.card[data-rarity="ultra"] .rarity-pill {
+  background: rgba(255, 215, 0, 0.2);
+  color: var(--ultra);
+}
+
+.card[data-rarity="ultra"] h2 {
+  color: var(--ultra);
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* Animation Class */
+.card.animate-unlock {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: var(--text-main);
+  color: #000;
+  border: none;
+  padding: 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.btn-primary:active {
+  transform: scale(0.96);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #444;
+  color: var(--text-dim);
+  padding: 12px;
+  font-size: 0.9rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  border-color: var(--text-main);
+  color: var(--text-main);
+}
+
+.btn-secondary:active {
+  background: #333;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+}
+
+.btn-text {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn-text:hover {
+  color: #888;
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+
+.toggle-switch input {
+  accent-color: var(--accent);
+  width: 16px;
+  height: 16px;
+}
+
+/* Unlocked Overlay */
+#unlock-overlay {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%) translateY(50px);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 100;
+  width: 90%;
+  max-width: 380px;
+}
+
+#unlock-overlay.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.badge-container {
+  background: var(--overlay-bg);
+  border-radius: 50px;
+  padding: 12px 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  border: 1px solid #444;
+}
+
+.badge-icon {
+  font-size: 2rem;
+  animation: trophySpin 0.8s ease;
+}
+
+@keyframes trophySpin {
+  0% {
+    transform: rotate(-30deg);
+  }
+
+  50% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.badge-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.badge-title {
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: var(--accent);
+  margin-bottom: 2px;
+}
+
+.badge-subtitle {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Streak Toast */
+#streak-toast {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100px);
+  background: #333;
+  border: 1px solid var(--rare);
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#streak-toast.show {
+  transform: translateX(-50%) translateY(0);
+}
+
+#streak-toast p {
+  font-size: 0.95rem;
+  color: #fff;
+}
+
+#streak-toast button {
+  padding: 8px;
+  background: var(--rare);
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}

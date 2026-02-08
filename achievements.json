@@ -1,0 +1,6023 @@
+[
+  {
+    "id": "a0001",
+    "title": "Sinn des Lebens",
+    "text": "42. Oder Schokolade. Man weiß es nicht.",
+    "rarity": "ultra"
+  },
+  {
+    "id": "a0002",
+    "title": "Durchgespielt",
+    "text": "Du hast das Ende des Internets erreicht.",
+    "rarity": "ultra"
+  },
+  {
+    "id": "a0003",
+    "title": "Erleuchtung",
+    "text": "Für eine Sekunde hat alles Sinn ergeben.",
+    "rarity": "ultra"
+  },
+  {
+    "id": "a0004",
+    "title": "Der Auserwählte",
+    "text": "Du bist der Protagonist. Glaube ich.",
+    "rarity": "ultra"
+  },
+  {
+    "id": "a0005",
+    "title": "Realität gecheckt",
+    "text": "Glitch in der Matrix gefunden.",
+    "rarity": "ultra"
+  },
+  {
+    "id": "a0006",
+    "title": "Meisterleistung: Maus",
+    "text": "Respekt. Das macht nicht jeder mit Welt.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0007",
+    "title": "Mega Kaffee",
+    "text": "Respekt. Das macht nicht jeder mit Ruhe.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0008",
+    "title": "Trüb Sinn gefunden",
+    "text": "Respekt. Das macht nicht jeder mit Bett.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0009",
+    "title": "Kein Stunde heute",
+    "text": "Respekt. Das macht nicht jeder mit Frage.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0010",
+    "title": "Kein Nichts heute",
+    "text": "Respekt. Das macht nicht jeder mit Wasser.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0011",
+    "title": "Boden gemeistert",
+    "text": "Respekt. Das macht nicht jeder mit Lärm.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0012",
+    "title": "Mega Stille",
+    "text": "Respekt. Das macht nicht jeder mit Alles.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0013",
+    "title": "Level Up: Plan",
+    "text": "Respekt. Das macht nicht jeder mit Energie.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0014",
+    "title": "Daten bezwungen",
+    "text": "Respekt. Das macht nicht jeder mit Mut.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0015",
+    "title": "Hardcore Welt",
+    "text": "Respekt. Das macht nicht jeder mit Bett.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0016",
+    "title": "Echt jetzt: Kaffee verloren",
+    "text": "Respekt. Das macht nicht jeder mit Raum.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0017",
+    "title": "Ultimative Feature",
+    "text": "Respekt. Das macht nicht jeder mit Freude.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0018",
+    "title": "Solide Nichts gefunden",
+    "text": "Respekt. Das macht nicht jeder mit Mut.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0019",
+    "title": "Kein Sinn heute",
+    "text": "Respekt. Das macht nicht jeder mit Angst.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0020",
+    "title": "Echt jetzt: Tee gescrollt",
+    "text": "Respekt. Das macht nicht jeder mit Wut.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0021",
+    "title": "Ultimative Wasser",
+    "text": "Respekt. Das macht nicht jeder mit Boden.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0022",
+    "title": "Echt Zettel gefunden",
+    "text": "Respekt. Das macht nicht jeder mit Nichts.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0023",
+    "title": "Perfektes Tee",
+    "text": "Respekt. Das macht nicht jeder mit Lärm.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0024",
+    "title": "Level Up: Bett",
+    "text": "Respekt. Das macht nicht jeder mit Gedanke.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0025",
+    "title": "Kein Wut heute",
+    "text": "Respekt. Das macht nicht jeder mit Sofa.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0026",
+    "title": "Ultimative Frage",
+    "text": "Respekt. Das macht nicht jeder mit Wille.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0027",
+    "title": "Ultimative Kaffee",
+    "text": "Respekt. Das macht nicht jeder mit Tastatur.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0028",
+    "title": "Mega Ruhe",
+    "text": "Respekt. Das macht nicht jeder mit Handy.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0029",
+    "title": "Mega Logik",
+    "text": "Respekt. Das macht nicht jeder mit Lärm.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0030",
+    "title": "Mega Zeit",
+    "text": "Respekt. Das macht nicht jeder mit Ruhe.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0031",
+    "title": "Meisterleistung: Nichts",
+    "text": "Respekt. Das macht nicht jeder mit Kraft.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0032",
+    "title": "Ultra gehalten",
+    "text": "Respekt. Das macht nicht jeder mit Buch.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0033",
+    "title": "Ultra gerannt",
+    "text": "Respekt. Das macht nicht jeder mit Mut.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0034",
+    "title": "Ultra gewartet",
+    "text": "Respekt. Das macht nicht jeder mit Maus.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0035",
+    "title": "Echt jetzt: Boden gegangen",
+    "text": "Respekt. Das macht nicht jeder mit Plan.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0036",
+    "title": "Logik bezwungen",
+    "text": "Respekt. Das macht nicht jeder mit Kraft.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0037",
+    "title": "Kein Alles heute",
+    "text": "Respekt. Das macht nicht jeder mit Alles.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0038",
+    "title": "Meisterleistung: Frage",
+    "text": "Respekt. Das macht nicht jeder mit Bett.",
+    "rarity": "rare",
+    "daily": true
+  },
+  {
+    "id": "a0039",
+    "title": "Hardcore Raum",
+    "text": "Respekt. Das macht nicht jeder mit Stuhl.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0040",
+    "title": "Ultimative Wasser",
+    "text": "Respekt. Das macht nicht jeder mit Fehler.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0041",
+    "title": "Dumm Flasche gefunden",
+    "text": "Respekt. Das macht nicht jeder mit Decke.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0042",
+    "title": "Perfektes Sofa",
+    "text": "Respekt. Das macht nicht jeder mit Lärm.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0043",
+    "title": "Hardcore Idee",
+    "text": "Respekt. Das macht nicht jeder mit Unsinn.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0044",
+    "title": "Level Up: Lärm",
+    "text": "Respekt. Das macht nicht jeder mit Schatten.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0045",
+    "title": "Ultra existiert",
+    "text": "Respekt. Das macht nicht jeder mit Gedanke.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0046",
+    "title": "Meisterleistung: Decke",
+    "text": "Respekt. Das macht nicht jeder mit Angst.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0047",
+    "title": "Brot bezwungen",
+    "text": "Respekt. Das macht nicht jeder mit Wille.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0048",
+    "title": "Fest Tastatur gefunden",
+    "text": "Respekt. Das macht nicht jeder mit Kaffee.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0049",
+    "title": "Kein Sofa heute",
+    "text": "Respekt. Das macht nicht jeder mit Tastatur.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0050",
+    "title": "Level Up: Moment",
+    "text": "Respekt. Das macht nicht jeder mit Tisch.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0051",
+    "title": "Hardcore Decke",
+    "text": "Respekt. Das macht nicht jeder mit Stift.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0052",
+    "title": "Grau Zeit gefunden",
+    "text": "Respekt. Das macht nicht jeder mit Schatten.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0053",
+    "title": "Hardcore Feature",
+    "text": "Respekt. Das macht nicht jeder mit Luft.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0054",
+    "title": "Glas bezwungen",
+    "text": "Respekt. Das macht nicht jeder mit Raum.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0055",
+    "title": "Ultimative Stille",
+    "text": "Respekt. Das macht nicht jeder mit Tag.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0056",
+    "title": "Meisterleistung: Stuhl",
+    "text": "Respekt. Das macht nicht jeder mit Stuhl.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0057",
+    "title": "Hardcore Bett",
+    "text": "Respekt. Das macht nicht jeder mit Mut.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0058",
+    "title": "Decke bezwungen",
+    "text": "Respekt. Das macht nicht jeder mit Tür.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0059",
+    "title": "Endgegner Kaffee",
+    "text": "Respekt. Das macht nicht jeder mit Wut.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0060",
+    "title": "Mega Decke",
+    "text": "Respekt. Das macht nicht jeder mit Tastatur.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0061",
+    "title": "Perfektes Sinn",
+    "text": "Respekt. Das macht nicht jeder mit Alles.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0062",
+    "title": "Kein Kraft heute",
+    "text": "Respekt. Das macht nicht jeder mit Sekunde.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0063",
+    "title": "Mega Nichts",
+    "text": "Respekt. Das macht nicht jeder mit Tür.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0064",
+    "title": "Ultimative Bug",
+    "text": "Respekt. Das macht nicht jeder mit Minute.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0065",
+    "title": "Perfektes Stift",
+    "text": "Respekt. Das macht nicht jeder mit Stunde.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0066",
+    "title": "Kaffee gemeistert",
+    "text": "Respekt. Das macht nicht jeder mit Freude.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0067",
+    "title": "Endgegner Flasche",
+    "text": "Respekt. Das macht nicht jeder mit Angst.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0068",
+    "title": "Meisterleistung: Tee",
+    "text": "Respekt. Das macht nicht jeder mit Zettel.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0069",
+    "title": "Kein Maus heute",
+    "text": "Respekt. Das macht nicht jeder mit Glas.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0070",
+    "title": "Ultimative Unsinn",
+    "text": "Respekt. Das macht nicht jeder mit Unsinn.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0071",
+    "title": "Frei Bildschirm gefunden",
+    "text": "Respekt. Das macht nicht jeder mit Alles.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0072",
+    "title": "Nichts bezwungen",
+    "text": "Respekt. Das macht nicht jeder mit Stunde.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0073",
+    "title": "Endgegner Tisch",
+    "text": "Respekt. Das macht nicht jeder mit Sekunde.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0074",
+    "title": "Kein Sekunde heute",
+    "text": "Respekt. Das macht nicht jeder mit Code.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0075",
+    "title": "Ultimative Unsinn",
+    "text": "Respekt. Das macht nicht jeder mit Handy.",
+    "rarity": "rare",
+    "daily": true
+  },
+  {
+    "id": "a0076",
+    "title": "Echt jetzt: Feature geschwiegen",
+    "text": "Respekt. Das macht nicht jeder mit Minute.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0077",
+    "title": "Mega Logik",
+    "text": "Respekt. Das macht nicht jeder mit Stift.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0078",
+    "title": "Minimal Boden gefunden",
+    "text": "Respekt. Das macht nicht jeder mit Nichts.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0079",
+    "title": "Endgegner Tür",
+    "text": "Respekt. Das macht nicht jeder mit Stille.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0080",
+    "title": "Feature gemeistert",
+    "text": "Respekt. Das macht nicht jeder mit Kaffee.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0081",
+    "title": "Endgegner Luft",
+    "text": "Respekt. Das macht nicht jeder mit Wille.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0082",
+    "title": "Mega Luft",
+    "text": "Respekt. Das macht nicht jeder mit Moment.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0083",
+    "title": "Ultra gekratzt",
+    "text": "Respekt. Das macht nicht jeder mit Logik.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0084",
+    "title": "Mega Freude",
+    "text": "Respekt. Das macht nicht jeder mit Nichts.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0085",
+    "title": "Mega Plan",
+    "text": "Respekt. Das macht nicht jeder mit Daten.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0086",
+    "title": "Wichtig Fenster gefunden",
+    "text": "Respekt. Das macht nicht jeder mit Idee.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0087",
+    "title": "Hardcore Tisch",
+    "text": "Respekt. Das macht nicht jeder mit Wut.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0088",
+    "title": "Endgegner Chaos",
+    "text": "Respekt. Das macht nicht jeder mit Fenster.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0089",
+    "title": "Hardcore Kaffee",
+    "text": "Respekt. Das macht nicht jeder mit Lärm.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0090",
+    "title": "Level Up: Idee",
+    "text": "Respekt. Das macht nicht jeder mit Angst.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0091",
+    "title": "Level Up: Kraft",
+    "text": "Respekt. Das macht nicht jeder mit Glas.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0092",
+    "title": "Kein Minute heute",
+    "text": "Respekt. Das macht nicht jeder mit Luft.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0093",
+    "title": "Echt jetzt: Moment gelassen",
+    "text": "Respekt. Das macht nicht jeder mit Bett.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0094",
+    "title": "Ultra beendet",
+    "text": "Respekt. Das macht nicht jeder mit Kraft.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0095",
+    "title": "Ultra gewonnen",
+    "text": "Respekt. Das macht nicht jeder mit Stunde.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0096",
+    "title": "Endgegner Glas",
+    "text": "Respekt. Das macht nicht jeder mit Plan.",
+    "rarity": "rare",
+    "daily": true
+  },
+  {
+    "id": "a0097",
+    "title": "Perfektes Fehler",
+    "text": "Respekt. Das macht nicht jeder mit Feature.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0098",
+    "title": "Level Up: Lärm",
+    "text": "Respekt. Das macht nicht jeder mit Tastatur.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0099",
+    "title": "Hardcore Stuhl",
+    "text": "Respekt. Das macht nicht jeder mit Fenster.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0100",
+    "title": "Hardcore Freude",
+    "text": "Respekt. Das macht nicht jeder mit Angst.",
+    "rarity": "rare"
+  },
+  {
+    "id": "a0101",
+    "title": "Angst gescrollt",
+    "text": "Das war wichtig. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0102",
+    "title": "Frage?",
+    "text": "Offen. Definitiv richtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0103",
+    "title": "Feature gescrollt",
+    "text": "Das war voll. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0104",
+    "title": "Ganz gezogen",
+    "text": "Hauptsache Gedanke. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0105",
+    "title": "Freude?",
+    "text": "Hart. Definitiv gut.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0106",
+    "title": "Nicht gesessen",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0107",
+    "title": "Grau gescrollt",
+    "text": "Hauptsache Nichts. Sogar zwei Mal.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0108",
+    "title": "Raum toleriert",
+    "text": "Das war spät. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0109",
+    "title": "Nicht gescrollt",
+    "text": "Auch eine Leistung. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0110",
+    "title": "Lärm versucht",
+    "text": "Das war lang. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0111",
+    "title": "Wichtig verschoben",
+    "text": "Hauptsache Daten. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0112",
+    "title": "Moment?",
+    "text": "Zu. Definitiv minimal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0113",
+    "title": "Fehler?",
+    "text": "Egal. Definitiv falsch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0114",
+    "title": "Bug vergessen",
+    "text": "Das war ganz. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0115",
+    "title": "Nicht geklickt",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0116",
+    "title": "Maximal begonnen",
+    "text": "Hauptsache Logik. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0117",
+    "title": "Angst?",
+    "text": "Leicht. Definitiv alt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0118",
+    "title": "Glas zugehört",
+    "text": "Das war früh. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0119",
+    "title": "Frage?",
+    "text": "Schnell. Definitiv digital.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0120",
+    "title": "Minute probiert",
+    "text": "Das war schwer. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0121",
+    "title": "Nicht geblieben",
+    "text": "Auch eine Leistung. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0122",
+    "title": "Tastatur?",
+    "text": "Neu. Definitiv episch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0123",
+    "title": "Nicht gedrückt",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0124",
+    "title": "Chaos?",
+    "text": "Neu. Definitiv schwer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0125",
+    "title": "Licht ignoriert",
+    "text": "Das war frei. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0126",
+    "title": "Nicht gekratzt",
+    "text": "Auch eine Leistung. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0127",
+    "title": "Offen gegangen",
+    "text": "Hauptsache Bildschirm. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0128",
+    "title": "Müde gedehnt",
+    "text": "Hauptsache Fenster. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0129",
+    "title": "Nicht beobachtet",
+    "text": "Auch eine Leistung. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0130",
+    "title": "Daten?",
+    "text": "Schwach. Definitiv nett.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0131",
+    "title": "Buch?",
+    "text": "Tief. Definitiv alt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0132",
+    "title": "Kraft?",
+    "text": "Schwach. Definitiv grau.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0133",
+    "title": "Stunde?",
+    "text": "Bunt. Definitiv voll.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0134",
+    "title": "Zettel erinnert",
+    "text": "Das war weich. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0135",
+    "title": "Nicht analysiert",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0136",
+    "title": "Fenster?",
+    "text": "Wild. Definitiv fest.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0137",
+    "title": "Sinn geschafft",
+    "text": "Das war fake. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0138",
+    "title": "Klar reflektiert",
+    "text": "Hauptsache Stille. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0139",
+    "title": "Nicht akzeptiert",
+    "text": "Auch eine Leistung. Wie ein NPC.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0140",
+    "title": "Nicht aufgestanden",
+    "text": "Auch eine Leistung. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0141",
+    "title": "Kraft?",
+    "text": "Bunt. Definitiv bunt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0142",
+    "title": "Licht?",
+    "text": "Hart. Definitiv stabil.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0143",
+    "title": "Frage?",
+    "text": "Kalt. Definitiv richtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0144",
+    "title": "Nicht gedehnt",
+    "text": "Auch eine Leistung. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0145",
+    "title": "Früh gekratzt",
+    "text": "Hauptsache Tee. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0146",
+    "title": "Kaffee?",
+    "text": "Müde. Definitiv maximal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0147",
+    "title": "Neu entschieden",
+    "text": "Hauptsache Stunde. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0148",
+    "title": "Idee existiert",
+    "text": "Das war optimal. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0149",
+    "title": "Daten gedehnt",
+    "text": "Das war gut. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0150",
+    "title": "Handy?",
+    "text": "Offen. Definitiv müde.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0151",
+    "title": "Wille zugehört",
+    "text": "Das war neu. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0152",
+    "title": "Mut gekratzt",
+    "text": "Das war frei. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0153",
+    "title": "Warm gescrollt",
+    "text": "Hauptsache Maus. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0154",
+    "title": "Lärm?",
+    "text": "Maximal. Definitiv hell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0155",
+    "title": "Nicht entschieden",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0156",
+    "title": "Nicht gewacht",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0157",
+    "title": "Fehler gezogen",
+    "text": "Das war trüb. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0158",
+    "title": "Nicht gedrückt",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0159",
+    "title": "Feature gekratzt",
+    "text": "Das war kurz. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0160",
+    "title": "Bunt hingelegt",
+    "text": "Hauptsache Zeit. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0161",
+    "title": "Nicht geblinzelt",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0162",
+    "title": "Wach begonnen",
+    "text": "Hauptsache Tisch. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0163",
+    "title": "Hungrig gesessen",
+    "text": "Hauptsache Alles. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0164",
+    "title": "Nicht existiert",
+    "text": "Auch eine Leistung. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0165",
+    "title": "Mut?",
+    "text": "Laut. Definitiv voll.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0166",
+    "title": "Handy?",
+    "text": "Fake. Definitiv warm.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0167",
+    "title": "Nicht gehalten",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0168",
+    "title": "Nicht toleriert",
+    "text": "Auch eine Leistung. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0169",
+    "title": "Dunkel hingelegt",
+    "text": "Hauptsache Tisch. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0170",
+    "title": "Wut?",
+    "text": "Solide. Definitiv hell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0171",
+    "title": "Stille?",
+    "text": "Warm. Definitiv leise.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0172",
+    "title": "Nicht geplant",
+    "text": "Auch eine Leistung. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0173",
+    "title": "Nicht vergessen",
+    "text": "Auch eine Leistung. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0174",
+    "title": "Tisch reflektiert",
+    "text": "Das war grau. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0175",
+    "title": "Kaffee versucht",
+    "text": "Das war stabil. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0176",
+    "title": "Klar geseufzt",
+    "text": "Hauptsache Sinn. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0177",
+    "title": "Nicht verschoben",
+    "text": "Auch eine Leistung. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0178",
+    "title": "Fehler?",
+    "text": "Optimal. Definitiv neu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0179",
+    "title": "Wut akzeptiert",
+    "text": "Das war lang. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0180",
+    "title": "Tee?",
+    "text": "Spät. Definitiv stabil.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0181",
+    "title": "Nicht geplant",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0182",
+    "title": "Mut?",
+    "text": "Digital. Definitiv minimal.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0183",
+    "title": "Bug?",
+    "text": "Weich. Definitiv spät.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0184",
+    "title": "Decke gewonnen",
+    "text": "Das war voll. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0185",
+    "title": "Chaos?",
+    "text": "Satt. Definitiv fake.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0186",
+    "title": "Decke?",
+    "text": "Solide. Definitiv leer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0187",
+    "title": "Nacht?",
+    "text": "Grau. Definitiv leicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0188",
+    "title": "Code existiert",
+    "text": "Das war hell. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0189",
+    "title": "Wild geschoben",
+    "text": "Hauptsache Sinn. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0190",
+    "title": "Frage getippt",
+    "text": "Das war früh. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0191",
+    "title": "Dumm gewacht",
+    "text": "Hauptsache Tür. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0192",
+    "title": "Nicht vergessen",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0193",
+    "title": "Stunde?",
+    "text": "Maximal. Definitiv hart.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0194",
+    "title": "Nicht toleriert",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0195",
+    "title": "Schatten?",
+    "text": "Klug. Definitiv voll.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0196",
+    "title": "Energie?",
+    "text": "Leicht. Definitiv voll.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0197",
+    "title": "Ruhig gedacht",
+    "text": "Hauptsache Energie. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0198",
+    "title": "Decke akzeptiert",
+    "text": "Das war echt. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0199",
+    "title": "Stift?",
+    "text": "Fest. Definitiv dumm.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0200",
+    "title": "Code?",
+    "text": "Zu. Definitiv maximal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0201",
+    "title": "Nichts verworfen",
+    "text": "Das war ruhig. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0202",
+    "title": "Nicht gezogen",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0203",
+    "title": "Leben gelassen",
+    "text": "Das war stabil. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0204",
+    "title": "Nicht geklickt",
+    "text": "Auch eine Leistung. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0205",
+    "title": "Nicht geatmet",
+    "text": "Auch eine Leistung. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0206",
+    "title": "Nicht beendet",
+    "text": "Auch eine Leistung. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0207",
+    "title": "Nicht getippt",
+    "text": "Auch eine Leistung. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0208",
+    "title": "Nicht gegangen",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0209",
+    "title": "Stuhl?",
+    "text": "Grau. Definitiv schwach.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0210",
+    "title": "Bug gekratzt",
+    "text": "Das war schwach. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0211",
+    "title": "Nicht vergessen",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0212",
+    "title": "Nicht geblieben",
+    "text": "Auch eine Leistung. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0213",
+    "title": "Fenster geklickt",
+    "text": "Das war leer. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0214",
+    "title": "Zettel?",
+    "text": "Warm. Definitiv lang.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0215",
+    "title": "Nicht geblinzelt",
+    "text": "Auch eine Leistung. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0216",
+    "title": "Tisch?",
+    "text": "Schwer. Definitiv analog.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0217",
+    "title": "Wut?",
+    "text": "Analog. Definitiv klar.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0218",
+    "title": "Glas?",
+    "text": "Dunkel. Definitiv stark.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0219",
+    "title": "Sofa pausiert",
+    "text": "Das war stark. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0220",
+    "title": "Welt?",
+    "text": "Minimal. Definitiv fake.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0221",
+    "title": "Stille?",
+    "text": "Wichtig. Definitiv ganz.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0222",
+    "title": "Halb hingelegt",
+    "text": "Hauptsache Zettel. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0223",
+    "title": "Lärm?",
+    "text": "Ganz. Definitiv laut.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0224",
+    "title": "Nicht entschieden",
+    "text": "Auch eine Leistung. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0225",
+    "title": "Sofa begonnen",
+    "text": "Das war halb. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0226",
+    "title": "Tief geschwiegen",
+    "text": "Hauptsache Tisch. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0227",
+    "title": "Minute?",
+    "text": "Alt. Definitiv falsch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0228",
+    "title": "Hell gewacht",
+    "text": "Hauptsache Wille. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0229",
+    "title": "Welt verworfen",
+    "text": "Das war schlecht. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0230",
+    "title": "Moment existiert",
+    "text": "Das war leer. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0231",
+    "title": "Leicht entschieden",
+    "text": "Hauptsache Wille. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0232",
+    "title": "Nicht probiert",
+    "text": "Auch eine Leistung. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0233",
+    "title": "Handy?",
+    "text": "Böse. Definitiv richtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0234",
+    "title": "Freude gescrollt",
+    "text": "Das war falsch. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0235",
+    "title": "Maus?",
+    "text": "Leer. Definitiv lang.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0236",
+    "title": "Nicht pausiert",
+    "text": "Auch eine Leistung. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0237",
+    "title": "Bildschirm?",
+    "text": "Klug. Definitiv digital.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0238",
+    "title": "Welt gelassen",
+    "text": "Das war maximal. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0239",
+    "title": "Nicht geschlafen",
+    "text": "Auch eine Leistung. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0240",
+    "title": "Ganz reflektiert",
+    "text": "Hauptsache Chaos. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0241",
+    "title": "Nett erinnert",
+    "text": "Hauptsache Ruhe. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0242",
+    "title": "Energie?",
+    "text": "Echt. Definitiv schnell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0243",
+    "title": "Dunkel entschieden",
+    "text": "Hauptsache Tee. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0244",
+    "title": "Laut geplant",
+    "text": "Hauptsache Tür. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0245",
+    "title": "Nicht versucht",
+    "text": "Auch eine Leistung. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0246",
+    "title": "Klug gedacht",
+    "text": "Hauptsache Fehler. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0247",
+    "title": "Unsinn geseufzt",
+    "text": "Das war optimal. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0248",
+    "title": "Energie überlebt",
+    "text": "Das war ganz. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0249",
+    "title": "Nicht geschafft",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0250",
+    "title": "Nicht hingelegt",
+    "text": "Auch eine Leistung. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0251",
+    "title": "Fest gezogen",
+    "text": "Hauptsache Glas. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0252",
+    "title": "Boden?",
+    "text": "Solide. Definitiv schnell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0253",
+    "title": "Nicht begonnen",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0254",
+    "title": "Lärm?",
+    "text": "Voll. Definitiv dumm.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0255",
+    "title": "Klar pausiert",
+    "text": "Hauptsache Kaffee. Wie ein NPC.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0256",
+    "title": "Nicht gedacht",
+    "text": "Auch eine Leistung. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0257",
+    "title": "Fake zugehört",
+    "text": "Hauptsache Tee. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0258",
+    "title": "Solide getrunken",
+    "text": "Hauptsache Wille. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0259",
+    "title": "Nicht existiert",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0260",
+    "title": "Buch versucht",
+    "text": "Das war schwach. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0261",
+    "title": "Nicht geschoben",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0262",
+    "title": "Fenster bemerkt",
+    "text": "Das war laut. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0263",
+    "title": "Stark geplant",
+    "text": "Hauptsache Mut. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0264",
+    "title": "Nicht akzeptiert",
+    "text": "Auch eine Leistung. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0265",
+    "title": "Kurz getrunken",
+    "text": "Hauptsache Buch. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0266",
+    "title": "Zeit zugehört",
+    "text": "Das war stabil. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0267",
+    "title": "Nicht zugehört",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0268",
+    "title": "Chaos verloren",
+    "text": "Das war satt. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0269",
+    "title": "Leben?",
+    "text": "Hungrig. Definitiv fest.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0270",
+    "title": "Minimal reflektiert",
+    "text": "Hauptsache Nichts. Wie ein NPC.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0271",
+    "title": "Nicht gehalten",
+    "text": "Auch eine Leistung. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0272",
+    "title": "Nichts gerannt",
+    "text": "Das war kurz. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0273",
+    "title": "Grau geschoben",
+    "text": "Hauptsache Chaos. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0274",
+    "title": "Fake gezogen",
+    "text": "Hauptsache Logik. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0275",
+    "title": "Welt geklickt",
+    "text": "Das war minimal. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0276",
+    "title": "Böse geschlafen",
+    "text": "Hauptsache Frage. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0277",
+    "title": "Nicht toleriert",
+    "text": "Auch eine Leistung. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0278",
+    "title": "Maus?",
+    "text": "Früh. Definitiv kurz.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0279",
+    "title": "Stille?",
+    "text": "Grau. Definitiv zu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0280",
+    "title": "Freude?",
+    "text": "Warm. Definitiv falsch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0281",
+    "title": "Glas akzeptiert",
+    "text": "Das war richtig. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0282",
+    "title": "Hart gewartet",
+    "text": "Hauptsache Handy. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0283",
+    "title": "Satt analysiert",
+    "text": "Hauptsache Kraft. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0284",
+    "title": "Buch?",
+    "text": "Kurz. Definitiv stark.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0285",
+    "title": "Schatten?",
+    "text": "Episch. Definitiv alt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0286",
+    "title": "Nicht gedehnt",
+    "text": "Auch eine Leistung. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0287",
+    "title": "Nicht analysiert",
+    "text": "Auch eine Leistung. Mit System.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0288",
+    "title": "Neu verschoben",
+    "text": "Hauptsache Angst. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0289",
+    "title": "Schwer gegangen",
+    "text": "Hauptsache Mut. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0290",
+    "title": "Ruhe weggesehen",
+    "text": "Das war schwach. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0291",
+    "title": "Wille vergessen",
+    "text": "Das war klug. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0292",
+    "title": "Welt?",
+    "text": "Weich. Definitiv schnell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0293",
+    "title": "Nicht überlebt",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0294",
+    "title": "Moment gekratzt",
+    "text": "Das war kalt. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0295",
+    "title": "Alt gehalten",
+    "text": "Hauptsache Stille. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0296",
+    "title": "Mut geseufzt",
+    "text": "Das war analog. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0297",
+    "title": "Nett geplant",
+    "text": "Hauptsache Antwort. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0298",
+    "title": "Nicht geblieben",
+    "text": "Auch eine Leistung. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0299",
+    "title": "Sekunde?",
+    "text": "Minimal. Definitiv dumm.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0300",
+    "title": "Antwort geschoben",
+    "text": "Das war richtig. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0301",
+    "title": "Nicht erinnert",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0302",
+    "title": "Minute?",
+    "text": "Frei. Definitiv egal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0303",
+    "title": "Kalt zugehört",
+    "text": "Hauptsache Sekunde. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0304",
+    "title": "Nicht gedacht",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0305",
+    "title": "Frage?",
+    "text": "Schwach. Definitiv bunt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0306",
+    "title": "Weich existiert",
+    "text": "Hauptsache Decke. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0307",
+    "title": "Licht probiert",
+    "text": "Das war frei. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0308",
+    "title": "Nicht pausiert",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0309",
+    "title": "Energie gedacht",
+    "text": "Das war dumm. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0310",
+    "title": "Maus?",
+    "text": "Minimal. Definitiv falsch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0311",
+    "title": "Neu geseufzt",
+    "text": "Hauptsache Stunde. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0312",
+    "title": "Alles?",
+    "text": "Laut. Definitiv schlecht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0313",
+    "title": "Antwort?",
+    "text": "Alt. Definitiv hell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0314",
+    "title": "Logik probiert",
+    "text": "Das war wach. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0315",
+    "title": "Tisch entschieden",
+    "text": "Das war lang. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0316",
+    "title": "Decke?",
+    "text": "Schnell. Definitiv wichtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0317",
+    "title": "Maus gekratzt",
+    "text": "Das war hungrig. War okay.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0318",
+    "title": "Tisch?",
+    "text": "Schlecht. Definitiv fake.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0319",
+    "title": "Schwach geschafft",
+    "text": "Hauptsache Decke. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0320",
+    "title": "Nicht geatmet",
+    "text": "Auch eine Leistung. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0321",
+    "title": "Feature?",
+    "text": "Satt. Definitiv schwer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0322",
+    "title": "Gedanke?",
+    "text": "Analog. Definitiv stabil.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0323",
+    "title": "Lärm gehalten",
+    "text": "Das war halb. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0324",
+    "title": "Glas?",
+    "text": "Ganz. Definitiv maximal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0325",
+    "title": "Nicht überlebt",
+    "text": "Auch eine Leistung. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0326",
+    "title": "Luft?",
+    "text": "Falsch. Definitiv hart.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0327",
+    "title": "Feature zugehört",
+    "text": "Das war alt. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0328",
+    "title": "Code gewacht",
+    "text": "Das war müde. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0329",
+    "title": "Antwort?",
+    "text": "Halb. Definitiv offen.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0330",
+    "title": "Alles?",
+    "text": "Wach. Definitiv episch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0331",
+    "title": "Leer gelächelt",
+    "text": "Hauptsache Kaffee. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0332",
+    "title": "Nicht bemerkt",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0333",
+    "title": "Brot?",
+    "text": "Klar. Definitiv leer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0334",
+    "title": "Nicht beendet",
+    "text": "Auch eine Leistung. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0335",
+    "title": "Schlecht gescrollt",
+    "text": "Hauptsache Idee. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0336",
+    "title": "Schatten probiert",
+    "text": "Das war wild. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0337",
+    "title": "Klug getippt",
+    "text": "Hauptsache Feature. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0338",
+    "title": "Lärm zugehört",
+    "text": "Das war zu. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0339",
+    "title": "Idee?",
+    "text": "Schlecht. Definitiv bunt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0340",
+    "title": "Nicht geblieben",
+    "text": "Auch eine Leistung. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0341",
+    "title": "Wut hingelegt",
+    "text": "Das war weich. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0342",
+    "title": "Nicht weggesehen",
+    "text": "Auch eine Leistung. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0343",
+    "title": "Nicht erinnert",
+    "text": "Auch eine Leistung. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0344",
+    "title": "Mut verloren",
+    "text": "Das war falsch. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0345",
+    "title": "Boden?",
+    "text": "Stabil. Definitiv klug.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0346",
+    "title": "Feature?",
+    "text": "Schwach. Definitiv episch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0347",
+    "title": "Mut?",
+    "text": "Schlecht. Definitiv weich.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0348",
+    "title": "Frage?",
+    "text": "Trüb. Definitiv echt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0349",
+    "title": "Antwort?",
+    "text": "Müde. Definitiv offen.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0350",
+    "title": "Glas?",
+    "text": "Dumm. Definitiv hungrig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0351",
+    "title": "Handy gekratzt",
+    "text": "Das war müde. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0352",
+    "title": "Lärm geblieben",
+    "text": "Das war analog. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0353",
+    "title": "Glas gekratzt",
+    "text": "Das war egal. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0354",
+    "title": "Nicht aufgestanden",
+    "text": "Auch eine Leistung. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0355",
+    "title": "Nett gedehnt",
+    "text": "Hauptsache Tastatur. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0356",
+    "title": "Kraft?",
+    "text": "Wach. Definitiv frei.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0357",
+    "title": "Stabil gewartet",
+    "text": "Hauptsache Frage. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0358",
+    "title": "Nicht gezogen",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0359",
+    "title": "Nicht genickt",
+    "text": "Auch eine Leistung. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0360",
+    "title": "Nicht erinnert",
+    "text": "Auch eine Leistung. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0361",
+    "title": "Voll weggesehen",
+    "text": "Hauptsache Energie. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0362",
+    "title": "Frage?",
+    "text": "Müde. Definitiv spät.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0363",
+    "title": "Unsinn toleriert",
+    "text": "Das war falsch. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0364",
+    "title": "Fehler bemerkt",
+    "text": "Das war voll. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0365",
+    "title": "Luft?",
+    "text": "Richtig. Definitiv stabil.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0366",
+    "title": "Bett begonnen",
+    "text": "Das war analog. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0367",
+    "title": "Nicht gekratzt",
+    "text": "Auch eine Leistung. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0368",
+    "title": "Nicht gezogen",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0369",
+    "title": "Grau gekratzt",
+    "text": "Hauptsache Stunde. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0370",
+    "title": "Solide genickt",
+    "text": "Hauptsache Minute. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0371",
+    "title": "Alt akzeptiert",
+    "text": "Hauptsache Handy. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0372",
+    "title": "Nicht verworfen",
+    "text": "Auch eine Leistung. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0373",
+    "title": "Stift?",
+    "text": "Weich. Definitiv solide.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0374",
+    "title": "Nicht gewonnen",
+    "text": "Auch eine Leistung. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0375",
+    "title": "Kalt geklickt",
+    "text": "Hauptsache Decke. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0376",
+    "title": "Moment gestanden",
+    "text": "Das war schnell. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0377",
+    "title": "Alles?",
+    "text": "Falsch. Definitiv echt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0378",
+    "title": "Sinn?",
+    "text": "Satt. Definitiv satt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0379",
+    "title": "Bug?",
+    "text": "Leise. Definitiv offen.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0380",
+    "title": "Nicht gelassen",
+    "text": "Auch eine Leistung. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0381",
+    "title": "Tag existiert",
+    "text": "Das war lang. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0382",
+    "title": "Müde vergessen",
+    "text": "Hauptsache Antwort. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0383",
+    "title": "Glas geklickt",
+    "text": "Das war laut. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0384",
+    "title": "Tag?",
+    "text": "Digital. Definitiv halb.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0385",
+    "title": "Energie reflektiert",
+    "text": "Das war wichtig. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0386",
+    "title": "Tisch verworfen",
+    "text": "Das war grau. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0387",
+    "title": "Leben analysiert",
+    "text": "Das war gut. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0388",
+    "title": "Sekunde?",
+    "text": "Analog. Definitiv hell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0389",
+    "title": "Kurz gegangen",
+    "text": "Hauptsache Minute. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0390",
+    "title": "Angst?",
+    "text": "Episch. Definitiv stark.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0391",
+    "title": "Nicht beendet",
+    "text": "Auch eine Leistung. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0392",
+    "title": "Maus verschoben",
+    "text": "Das war satt. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0393",
+    "title": "Schatten?",
+    "text": "Klug. Definitiv neu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0394",
+    "title": "Plan versucht",
+    "text": "Das war fest. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0395",
+    "title": "Klug beobachtet",
+    "text": "Hauptsache Gedanke. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0396",
+    "title": "Nicht hingelegt",
+    "text": "Auch eine Leistung. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0397",
+    "title": "Minute?",
+    "text": "Ruhig. Definitiv klar.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0398",
+    "title": "Ruhe gedrückt",
+    "text": "Das war spät. Meta.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0399",
+    "title": "Unsinn?",
+    "text": "Leicht. Definitiv bunt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0400",
+    "title": "Klug gesessen",
+    "text": "Hauptsache Bug. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0401",
+    "title": "Voll aufgestanden",
+    "text": "Hauptsache Stuhl. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0402",
+    "title": "Neu geschlafen",
+    "text": "Hauptsache Sofa. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0403",
+    "title": "Nicht geschafft",
+    "text": "Auch eine Leistung. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0404",
+    "title": "Stunde hingelegt",
+    "text": "Das war kalt. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0405",
+    "title": "Idee?",
+    "text": "Grau. Definitiv leise.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0406",
+    "title": "Nicht geseufzt",
+    "text": "Auch eine Leistung. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0407",
+    "title": "Hell pausiert",
+    "text": "Hauptsache Minute. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0408",
+    "title": "Nicht gedacht",
+    "text": "Auch eine Leistung. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0409",
+    "title": "Angst?",
+    "text": "Schnell. Definitiv alt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0410",
+    "title": "Logik?",
+    "text": "Kalt. Definitiv klug.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0411",
+    "title": "Buch?",
+    "text": "Schwach. Definitiv schnell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0412",
+    "title": "Frage?",
+    "text": "Solide. Definitiv früh.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0413",
+    "title": "Fenster?",
+    "text": "Trüb. Definitiv zu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0414",
+    "title": "Stark erinnert",
+    "text": "Hauptsache Maus. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0415",
+    "title": "Ruhe?",
+    "text": "Stabil. Definitiv kurz.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0416",
+    "title": "Nicht geschoben",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0417",
+    "title": "Licht?",
+    "text": "Zu. Definitiv maximal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0418",
+    "title": "Episch geatmet",
+    "text": "Hauptsache Buch. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0419",
+    "title": "Decke?",
+    "text": "Optimal. Definitiv lang.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0420",
+    "title": "Mut?",
+    "text": "Fake. Definitiv grau.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0421",
+    "title": "Welt getrunken",
+    "text": "Das war episch. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0422",
+    "title": "Nicht geschwiegen",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0423",
+    "title": "Optimal geseufzt",
+    "text": "Hauptsache Plan. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0424",
+    "title": "Nicht existiert",
+    "text": "Auch eine Leistung. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0425",
+    "title": "Lärm?",
+    "text": "Voll. Definitiv schwer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0426",
+    "title": "Handy?",
+    "text": "Satt. Definitiv spät.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0427",
+    "title": "Nicht gedehnt",
+    "text": "Auch eine Leistung. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0428",
+    "title": "Alt akzeptiert",
+    "text": "Hauptsache Code. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0429",
+    "title": "Spät gelassen",
+    "text": "Hauptsache Glas. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0430",
+    "title": "Kraft reflektiert",
+    "text": "Das war episch. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0431",
+    "title": "Kraft?",
+    "text": "Hart. Definitiv wichtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0432",
+    "title": "Dunkel gewacht",
+    "text": "Hauptsache Stift. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0433",
+    "title": "Nacht?",
+    "text": "Falsch. Definitiv kurz.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0434",
+    "title": "Solide begonnen",
+    "text": "Hauptsache Brot. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0435",
+    "title": "Nicht gelächelt",
+    "text": "Auch eine Leistung. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0436",
+    "title": "Nicht hingelegt",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0437",
+    "title": "Energie?",
+    "text": "Analog. Definitiv optimal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0438",
+    "title": "Bildschirm weggesehen",
+    "text": "Das war kalt. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0439",
+    "title": "Kaffee beobachtet",
+    "text": "Das war klug. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0440",
+    "title": "Licht?",
+    "text": "Weich. Definitiv halb.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0441",
+    "title": "Nicht geklickt",
+    "text": "Auch eine Leistung. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0442",
+    "title": "Maximal beendet",
+    "text": "Hauptsache Stille. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0443",
+    "title": "Nicht beobachtet",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0444",
+    "title": "Nicht begonnen",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0445",
+    "title": "Egal gezogen",
+    "text": "Hauptsache Flasche. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0446",
+    "title": "Leben?",
+    "text": "Wild. Definitiv böse.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0447",
+    "title": "Nicht akzeptiert",
+    "text": "Auch eine Leistung. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0448",
+    "title": "Zettel?",
+    "text": "Leicht. Definitiv ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0449",
+    "title": "Handy?",
+    "text": "Egal. Definitiv wichtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0450",
+    "title": "Kraft?",
+    "text": "Tief. Definitiv schwer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0451",
+    "title": "Wasser?",
+    "text": "Digital. Definitiv ganz.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0452",
+    "title": "Angst getippt",
+    "text": "Das war leicht. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0453",
+    "title": "Wasser getippt",
+    "text": "Das war echt. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0454",
+    "title": "Nicht gerannt",
+    "text": "Auch eine Leistung. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0455",
+    "title": "Hart erinnert",
+    "text": "Hauptsache Unsinn. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0456",
+    "title": "Nicht geatmet",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0457",
+    "title": "Moment gegangen",
+    "text": "Das war schnell. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0458",
+    "title": "Echt gedacht",
+    "text": "Hauptsache Bildschirm. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0459",
+    "title": "Nicht entschieden",
+    "text": "Auch eine Leistung. Musste sein.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0460",
+    "title": "Nicht verloren",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0461",
+    "title": "Nicht geatmet",
+    "text": "Auch eine Leistung. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0462",
+    "title": "Trüb akzeptiert",
+    "text": "Hauptsache Feature. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0463",
+    "title": "Nett gegangen",
+    "text": "Hauptsache Decke. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0464",
+    "title": "Wasser reflektiert",
+    "text": "Das war egal. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0465",
+    "title": "Wild begonnen",
+    "text": "Hauptsache Stift. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0466",
+    "title": "Mut geschlafen",
+    "text": "Das war fest. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0467",
+    "title": "Sofa?",
+    "text": "Alt. Definitiv zu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0468",
+    "title": "Tee?",
+    "text": "Echt. Definitiv solide.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0469",
+    "title": "Wasser?",
+    "text": "Weich. Definitiv bunt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0470",
+    "title": "Nicht geblieben",
+    "text": "Auch eine Leistung. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0471",
+    "title": "Boden?",
+    "text": "Neu. Definitiv klar.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0472",
+    "title": "Tisch gekratzt",
+    "text": "Das war schnell. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0473",
+    "title": "Nicht akzeptiert",
+    "text": "Auch eine Leistung. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0474",
+    "title": "Bug?",
+    "text": "Müde. Definitiv schlecht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0475",
+    "title": "Nicht gesessen",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0476",
+    "title": "Licht akzeptiert",
+    "text": "Das war analog. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0477",
+    "title": "Leben?",
+    "text": "Offen. Definitiv richtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0478",
+    "title": "Buch?",
+    "text": "Böse. Definitiv laut.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0479",
+    "title": "Zu gestanden",
+    "text": "Hauptsache Chaos. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0480",
+    "title": "Gedanke?",
+    "text": "Klar. Definitiv hart.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0481",
+    "title": "Wille geseufzt",
+    "text": "Das war neu. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0482",
+    "title": "Wut gezogen",
+    "text": "Das war fest. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0483",
+    "title": "Tag?",
+    "text": "Trüb. Definitiv bunt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0484",
+    "title": "Böse geplant",
+    "text": "Hauptsache Zeit. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0485",
+    "title": "Nicht verschoben",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0486",
+    "title": "Nicht geatmet",
+    "text": "Auch eine Leistung. Aus Prinzip.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0487",
+    "title": "Nicht gedehnt",
+    "text": "Auch eine Leistung. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0488",
+    "title": "Nicht gehalten",
+    "text": "Auch eine Leistung. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0489",
+    "title": "Leise toleriert",
+    "text": "Hauptsache Logik. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0490",
+    "title": "Wut gedacht",
+    "text": "Das war alt. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0491",
+    "title": "Nicht geatmet",
+    "text": "Auch eine Leistung. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0492",
+    "title": "Schatten begonnen",
+    "text": "Das war fest. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0493",
+    "title": "Nicht gewacht",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0494",
+    "title": "Lang analysiert",
+    "text": "Hauptsache Kaffee. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0495",
+    "title": "Sofa?",
+    "text": "Wach. Definitiv klug.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0496",
+    "title": "Moment?",
+    "text": "Minimal. Definitiv fake.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0497",
+    "title": "Nicht weggesehen",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0498",
+    "title": "Bett?",
+    "text": "Kalt. Definitiv richtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0499",
+    "title": "Freude?",
+    "text": "Gut. Definitiv fest.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0500",
+    "title": "Nicht getippt",
+    "text": "Auch eine Leistung. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0501",
+    "title": "Bett?",
+    "text": "Wichtig. Definitiv ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0502",
+    "title": "Laut weggesehen",
+    "text": "Hauptsache Ruhe. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0503",
+    "title": "Nicht hingelegt",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0504",
+    "title": "Nicht gerannt",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0505",
+    "title": "Wille geschoben",
+    "text": "Das war frei. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0506",
+    "title": "Trüb akzeptiert",
+    "text": "Hauptsache Daten. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0507",
+    "title": "Kurz reflektiert",
+    "text": "Hauptsache Tee. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0508",
+    "title": "Nicht gedrückt",
+    "text": "Auch eine Leistung. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0509",
+    "title": "Stabil bemerkt",
+    "text": "Hauptsache Sekunde. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0510",
+    "title": "Nicht vergessen",
+    "text": "Auch eine Leistung. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0511",
+    "title": "Nacht geschoben",
+    "text": "Das war laut. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0512",
+    "title": "Stift vergessen",
+    "text": "Das war schwach. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0513",
+    "title": "Spät getrunken",
+    "text": "Hauptsache Sekunde. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0514",
+    "title": "Boden?",
+    "text": "Voll. Definitiv trüb.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0515",
+    "title": "Sinn existiert",
+    "text": "Das war offen. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0516",
+    "title": "Leise toleriert",
+    "text": "Hauptsache Stunde. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0517",
+    "title": "Nicht gewartet",
+    "text": "Auch eine Leistung. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0518",
+    "title": "Nicht verworfen",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0519",
+    "title": "Frage?",
+    "text": "Stabil. Definitiv hell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0520",
+    "title": "Glas?",
+    "text": "Egal. Definitiv minimal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0521",
+    "title": "Frage?",
+    "text": "Gut. Definitiv hell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0522",
+    "title": "Frage verschoben",
+    "text": "Das war voll. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0523",
+    "title": "Schatten?",
+    "text": "Ruhig. Definitiv hart.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0524",
+    "title": "Code?",
+    "text": "Kurz. Definitiv schwer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0525",
+    "title": "Kalt geatmet",
+    "text": "Hauptsache Kraft. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0526",
+    "title": "Feature ignoriert",
+    "text": "Das war stabil. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0527",
+    "title": "Stuhl?",
+    "text": "Stabil. Definitiv schwach.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0528",
+    "title": "Weich begonnen",
+    "text": "Hauptsache Antwort. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0529",
+    "title": "Nicht gescrollt",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0530",
+    "title": "Weich geblinzelt",
+    "text": "Hauptsache Mut. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0531",
+    "title": "Moment?",
+    "text": "Episch. Definitiv episch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0532",
+    "title": "Zettel?",
+    "text": "Wach. Definitiv müde.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0533",
+    "title": "Tee gewartet",
+    "text": "Das war analog. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0534",
+    "title": "Minute?",
+    "text": "Neu. Definitiv neu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0535",
+    "title": "Nicht bemerkt",
+    "text": "Auch eine Leistung. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0536",
+    "title": "Leicht gewonnen",
+    "text": "Hauptsache Mut. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0537",
+    "title": "Nichts?",
+    "text": "Laut. Definitiv hungrig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0538",
+    "title": "Bildschirm pausiert",
+    "text": "Das war leise. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0539",
+    "title": "Nicht weggesehen",
+    "text": "Auch eine Leistung. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0540",
+    "title": "Code geseufzt",
+    "text": "Das war neu. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0541",
+    "title": "Nicht gezogen",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0542",
+    "title": "Sofa verloren",
+    "text": "Das war gut. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0543",
+    "title": "Nicht gekratzt",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0544",
+    "title": "Nicht weggesehen",
+    "text": "Auch eine Leistung. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0545",
+    "title": "Stift verloren",
+    "text": "Das war bunt. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0546",
+    "title": "Angst?",
+    "text": "Minimal. Definitiv hungrig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0547",
+    "title": "Chaos beobachtet",
+    "text": "Das war digital. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0548",
+    "title": "Nicht geklickt",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0549",
+    "title": "Nicht beendet",
+    "text": "Auch eine Leistung. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0550",
+    "title": "Wild toleriert",
+    "text": "Hauptsache Stuhl. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0551",
+    "title": "Klar gegessen",
+    "text": "Hauptsache Bug. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0552",
+    "title": "Tag?",
+    "text": "Schnell. Definitiv müde.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0553",
+    "title": "Nicht gestanden",
+    "text": "Auch eine Leistung. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0554",
+    "title": "Nicht reflektiert",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0555",
+    "title": "Gedanke getrunken",
+    "text": "Das war kalt. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0556",
+    "title": "Nicht gewonnen",
+    "text": "Auch eine Leistung. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0557",
+    "title": "Nichts?",
+    "text": "Stark. Definitiv egal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0558",
+    "title": "Stille gedehnt",
+    "text": "Das war fake. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0559",
+    "title": "Neu aufgestanden",
+    "text": "Hauptsache Angst. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0560",
+    "title": "Nicht bemerkt",
+    "text": "Auch eine Leistung. War okay.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0561",
+    "title": "Leben?",
+    "text": "Lang. Definitiv hungrig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0562",
+    "title": "Nett gescrollt",
+    "text": "Hauptsache Frage. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0563",
+    "title": "Frage?",
+    "text": "Schlecht. Definitiv falsch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0564",
+    "title": "Nicht geklickt",
+    "text": "Auch eine Leistung. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0565",
+    "title": "Tisch?",
+    "text": "Episch. Definitiv stabil.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0566",
+    "title": "Tag?",
+    "text": "Maximal. Definitiv hart.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0567",
+    "title": "Kalt akzeptiert",
+    "text": "Hauptsache Antwort. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0568",
+    "title": "Nett begonnen",
+    "text": "Hauptsache Zeit. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0569",
+    "title": "Stunde geplant",
+    "text": "Das war satt. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0570",
+    "title": "Stille?",
+    "text": "Ruhig. Definitiv optimal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0571",
+    "title": "Offen genickt",
+    "text": "Hauptsache Bett. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0572",
+    "title": "Sinn?",
+    "text": "Neu. Definitiv kalt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0573",
+    "title": "Nicht reflektiert",
+    "text": "Auch eine Leistung. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0574",
+    "title": "Angst existiert",
+    "text": "Das war nett. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0575",
+    "title": "Angst?",
+    "text": "Leicht. Definitiv hell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0576",
+    "title": "Frage?",
+    "text": "Falsch. Definitiv stark.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0577",
+    "title": "Kaffee?",
+    "text": "Klar. Definitiv schlecht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0578",
+    "title": "Wille überlebt",
+    "text": "Das war schwer. Wie ein NPC.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0579",
+    "title": "Luft?",
+    "text": "Digital. Definitiv ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0580",
+    "title": "Energie?",
+    "text": "Voll. Definitiv wild.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0581",
+    "title": "Tisch?",
+    "text": "Trüb. Definitiv leicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0582",
+    "title": "Stunde?",
+    "text": "Satt. Definitiv hart.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0583",
+    "title": "Nicht gesessen",
+    "text": "Auch eine Leistung. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0584",
+    "title": "Nicht aufgestanden",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0585",
+    "title": "Alles gekratzt",
+    "text": "Das war egal. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0586",
+    "title": "Minute entschieden",
+    "text": "Das war tief. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0587",
+    "title": "Stuhl verworfen",
+    "text": "Das war spät. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0588",
+    "title": "Früh weggesehen",
+    "text": "Hauptsache Tür. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0589",
+    "title": "Decke gewartet",
+    "text": "Das war wild. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0590",
+    "title": "Nicht genickt",
+    "text": "Auch eine Leistung. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0591",
+    "title": "Tag?",
+    "text": "Kurz. Definitiv spät.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0592",
+    "title": "Mut?",
+    "text": "Alt. Definitiv leicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0593",
+    "title": "Stille geschafft",
+    "text": "Das war alt. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0594",
+    "title": "Chaos?",
+    "text": "Satt. Definitiv neu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0595",
+    "title": "Maus weggesehen",
+    "text": "Das war lang. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0596",
+    "title": "Richtig reflektiert",
+    "text": "Hauptsache Frage. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0597",
+    "title": "Nicht analysiert",
+    "text": "Auch eine Leistung. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0598",
+    "title": "Unsinn geklickt",
+    "text": "Das war fest. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0599",
+    "title": "Luft entschieden",
+    "text": "Das war müde. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0600",
+    "title": "Fake weggesehen",
+    "text": "Hauptsache Freude. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0601",
+    "title": "Nicht gewartet",
+    "text": "Auch eine Leistung. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0602",
+    "title": "Leben?",
+    "text": "Ganz. Definitiv satt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0603",
+    "title": "Stille geschwiegen",
+    "text": "Das war schwach. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0604",
+    "title": "Wut toleriert",
+    "text": "Das war trüb. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0605",
+    "title": "Sinn?",
+    "text": "Grau. Definitiv klug.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0606",
+    "title": "Wille?",
+    "text": "Warm. Definitiv falsch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0607",
+    "title": "Kaffee gegessen",
+    "text": "Das war klar. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0608",
+    "title": "Nicht genickt",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0609",
+    "title": "Energie?",
+    "text": "Richtig. Definitiv dunkel.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0610",
+    "title": "Handy?",
+    "text": "Hell. Definitiv stabil.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0611",
+    "title": "Glas gerannt",
+    "text": "Das war laut. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0612",
+    "title": "Lärm ignoriert",
+    "text": "Das war kalt. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0613",
+    "title": "Boden?",
+    "text": "Voll. Definitiv schlecht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0614",
+    "title": "Weich genickt",
+    "text": "Hauptsache Logik. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0615",
+    "title": "Glas gewonnen",
+    "text": "Das war schnell. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0616",
+    "title": "Nicht geblinzelt",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0617",
+    "title": "Schlecht vergessen",
+    "text": "Hauptsache Stuhl. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0618",
+    "title": "Buch verschoben",
+    "text": "Das war analog. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0619",
+    "title": "Angst?",
+    "text": "Dunkel. Definitiv kurz.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0620",
+    "title": "Maximal geschafft",
+    "text": "Hauptsache Wille. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0621",
+    "title": "Tee gewonnen",
+    "text": "Das war ruhig. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0622",
+    "title": "Sekunde beobachtet",
+    "text": "Das war leicht. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0623",
+    "title": "Nicht gesessen",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0624",
+    "title": "Decke?",
+    "text": "Schnell. Definitiv alt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0625",
+    "title": "Raum?",
+    "text": "Halb. Definitiv ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0626",
+    "title": "Zettel geklickt",
+    "text": "Das war fest. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0627",
+    "title": "Alt entschieden",
+    "text": "Hauptsache Bett. Einfach so.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0628",
+    "title": "Nicht beendet",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0629",
+    "title": "Kraft?",
+    "text": "Leicht. Definitiv wach.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0630",
+    "title": "Lärm existiert",
+    "text": "Das war leicht. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0631",
+    "title": "Kraft akzeptiert",
+    "text": "Das war dumm. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0632",
+    "title": "Frage?",
+    "text": "Stark. Definitiv offen.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0633",
+    "title": "Kaffee verworfen",
+    "text": "Das war leise. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0634",
+    "title": "Raum?",
+    "text": "Neu. Definitiv fake.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0635",
+    "title": "Analog gewonnen",
+    "text": "Hauptsache Bildschirm. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0636",
+    "title": "Bug gekratzt",
+    "text": "Das war weich. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0637",
+    "title": "Schlecht weggesehen",
+    "text": "Hauptsache Idee. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0638",
+    "title": "Wille geblinzelt",
+    "text": "Das war echt. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0639",
+    "title": "Sofa existiert",
+    "text": "Das war egal. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0640",
+    "title": "Minute gelassen",
+    "text": "Das war alt. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0641",
+    "title": "Nicht gedehnt",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0642",
+    "title": "Nicht gelassen",
+    "text": "Auch eine Leistung. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0643",
+    "title": "Decke?",
+    "text": "Spät. Definitiv dumm.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0644",
+    "title": "Zeit?",
+    "text": "Dunkel. Definitiv solide.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0645",
+    "title": "Egal gelächelt",
+    "text": "Hauptsache Zettel. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0646",
+    "title": "Chaos?",
+    "text": "Lang. Definitiv schwer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0647",
+    "title": "Glas?",
+    "text": "Ganz. Definitiv klar.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0648",
+    "title": "Alt geschoben",
+    "text": "Hauptsache Handy. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0649",
+    "title": "Stark erinnert",
+    "text": "Hauptsache Antwort. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0650",
+    "title": "Stunde?",
+    "text": "Bunt. Definitiv egal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0651",
+    "title": "Sekunde gelassen",
+    "text": "Das war leicht. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0652",
+    "title": "Kraft?",
+    "text": "Wild. Definitiv schwach.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0653",
+    "title": "Nicht weggesehen",
+    "text": "Auch eine Leistung. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0654",
+    "title": "Freude?",
+    "text": "Wild. Definitiv satt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0655",
+    "title": "Stille?",
+    "text": "Alt. Definitiv böse.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0656",
+    "title": "Nicht gekratzt",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0657",
+    "title": "Nicht gesessen",
+    "text": "Auch eine Leistung. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0658",
+    "title": "Fehler?",
+    "text": "Episch. Definitiv minimal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0659",
+    "title": "Bunt analysiert",
+    "text": "Hauptsache Tastatur. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0660",
+    "title": "Feature gehalten",
+    "text": "Das war nett. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0661",
+    "title": "Nicht gelächelt",
+    "text": "Auch eine Leistung. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0662",
+    "title": "Ruhig hingelegt",
+    "text": "Hauptsache Code. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0663",
+    "title": "Nicht getrunken",
+    "text": "Auch eine Leistung. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0664",
+    "title": "Flasche gedacht",
+    "text": "Das war stabil. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0665",
+    "title": "Tief geschlafen",
+    "text": "Hauptsache Plan. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0666",
+    "title": "Leben?",
+    "text": "Schwer. Definitiv dumm.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0667",
+    "title": "Raum?",
+    "text": "Schlecht. Definitiv hungrig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0668",
+    "title": "Nicht verschoben",
+    "text": "Auch eine Leistung. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0669",
+    "title": "Zeit?",
+    "text": "Böse. Definitiv stabil.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0670",
+    "title": "Digital erinnert",
+    "text": "Hauptsache Kraft. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0671",
+    "title": "Stuhl?",
+    "text": "Trüb. Definitiv digital.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0672",
+    "title": "Licht?",
+    "text": "Offen. Definitiv schlecht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0673",
+    "title": "Nicht zugehört",
+    "text": "Auch eine Leistung. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0674",
+    "title": "Nicht aufgestanden",
+    "text": "Auch eine Leistung. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0675",
+    "title": "Stabil gekratzt",
+    "text": "Hauptsache Code. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0676",
+    "title": "Alt gestanden",
+    "text": "Hauptsache Idee. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0677",
+    "title": "Wille?",
+    "text": "Hungrig. Definitiv episch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0678",
+    "title": "Neu aufgestanden",
+    "text": "Hauptsache Tastatur. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0679",
+    "title": "Egal toleriert",
+    "text": "Hauptsache Luft. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0680",
+    "title": "Decke begonnen",
+    "text": "Das war laut. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0681",
+    "title": "Tisch?",
+    "text": "Hungrig. Definitiv warm.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0682",
+    "title": "Frei bemerkt",
+    "text": "Hauptsache Tastatur. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0683",
+    "title": "Plan?",
+    "text": "Schnell. Definitiv lang.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0684",
+    "title": "Handy?",
+    "text": "Klug. Definitiv alt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0685",
+    "title": "Bett geatmet",
+    "text": "Das war hell. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0686",
+    "title": "Zettel?",
+    "text": "Lang. Definitiv klar.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0687",
+    "title": "Licht?",
+    "text": "Fake. Definitiv optimal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0688",
+    "title": "Tür vergessen",
+    "text": "Das war kalt. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0689",
+    "title": "Lärm gewacht",
+    "text": "Das war ruhig. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0690",
+    "title": "Fake gerannt",
+    "text": "Hauptsache Maus. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0691",
+    "title": "Nicht gerannt",
+    "text": "Auch eine Leistung. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0692",
+    "title": "Alles?",
+    "text": "Leer. Definitiv trüb.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0693",
+    "title": "Freude?",
+    "text": "Ruhig. Definitiv bunt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0694",
+    "title": "Kraft genickt",
+    "text": "Das war leise. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0695",
+    "title": "Leben?",
+    "text": "Leer. Definitiv egal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0696",
+    "title": "Nicht geklickt",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0697",
+    "title": "Wut?",
+    "text": "Klar. Definitiv leer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0698",
+    "title": "Schatten?",
+    "text": "Leise. Definitiv richtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0699",
+    "title": "Brot reflektiert",
+    "text": "Das war lang. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0700",
+    "title": "Antwort geschoben",
+    "text": "Das war halb. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0701",
+    "title": "Bug geschafft",
+    "text": "Das war halb. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0702",
+    "title": "Glas?",
+    "text": "Wild. Definitiv spät.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0703",
+    "title": "Nicht bemerkt",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0704",
+    "title": "Minute?",
+    "text": "Optimal. Definitiv echt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0705",
+    "title": "Wille geschoben",
+    "text": "Das war früh. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0706",
+    "title": "Tastatur?",
+    "text": "Laut. Definitiv früh.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0707",
+    "title": "Nicht gerannt",
+    "text": "Auch eine Leistung. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0708",
+    "title": "Handy?",
+    "text": "Ganz. Definitiv hungrig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0709",
+    "title": "Nicht begonnen",
+    "text": "Auch eine Leistung. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0710",
+    "title": "Müde gelassen",
+    "text": "Hauptsache Zeit. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0711",
+    "title": "Nicht beendet",
+    "text": "Auch eine Leistung. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0712",
+    "title": "Glas?",
+    "text": "Offen. Definitiv falsch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0713",
+    "title": "Nicht gedrückt",
+    "text": "Auch eine Leistung. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0714",
+    "title": "Zeit?",
+    "text": "Halb. Definitiv neu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0715",
+    "title": "Nicht gewonnen",
+    "text": "Auch eine Leistung. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0716",
+    "title": "Nicht existiert",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0717",
+    "title": "Antwort probiert",
+    "text": "Das war gut. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0718",
+    "title": "Nicht getrunken",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0719",
+    "title": "Flasche gekratzt",
+    "text": "Das war bunt. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0720",
+    "title": "Maus?",
+    "text": "Satt. Definitiv leicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0721",
+    "title": "Hart entschieden",
+    "text": "Hauptsache Mut. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0722",
+    "title": "Nicht vergessen",
+    "text": "Auch eine Leistung. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0723",
+    "title": "Kaffee gestanden",
+    "text": "Das war leer. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0724",
+    "title": "Echt gedrückt",
+    "text": "Hauptsache Licht. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0725",
+    "title": "Sinn begonnen",
+    "text": "Das war hungrig. Meta.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0726",
+    "title": "Digital versucht",
+    "text": "Hauptsache Stuhl. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0727",
+    "title": "Stuhl?",
+    "text": "Wach. Definitiv offen.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0728",
+    "title": "Moment?",
+    "text": "Kalt. Definitiv schnell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0729",
+    "title": "Nicht verloren",
+    "text": "Auch eine Leistung. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0730",
+    "title": "Tag?",
+    "text": "Richtig. Definitiv ganz.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0731",
+    "title": "Weich gewonnen",
+    "text": "Hauptsache Wut. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0732",
+    "title": "Decke?",
+    "text": "Voll. Definitiv schwer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0733",
+    "title": "Ruhe gelächelt",
+    "text": "Das war laut. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0734",
+    "title": "Früh genickt",
+    "text": "Hauptsache Logik. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0735",
+    "title": "Ganz gedehnt",
+    "text": "Hauptsache Energie. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0736",
+    "title": "Müde gegessen",
+    "text": "Hauptsache Fehler. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0737",
+    "title": "Tisch beendet",
+    "text": "Das war zu. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0738",
+    "title": "Nicht geseufzt",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0739",
+    "title": "Feature?",
+    "text": "Klar. Definitiv stabil.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0740",
+    "title": "Zeit?",
+    "text": "Minimal. Definitiv fest.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0741",
+    "title": "Nicht geseufzt",
+    "text": "Auch eine Leistung. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0742",
+    "title": "Welt gelächelt",
+    "text": "Das war spät. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0743",
+    "title": "Nicht getrunken",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0744",
+    "title": "Leise weggesehen",
+    "text": "Hauptsache Raum. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0745",
+    "title": "Nicht geschlafen",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0746",
+    "title": "Chaos begonnen",
+    "text": "Das war tief. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0747",
+    "title": "Lang genickt",
+    "text": "Hauptsache Plan. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0748",
+    "title": "Dunkel geblieben",
+    "text": "Hauptsache Welt. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0749",
+    "title": "Tee?",
+    "text": "Episch. Definitiv schwach.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0750",
+    "title": "Chaos gekratzt",
+    "text": "Das war echt. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0751",
+    "title": "Minimal geschafft",
+    "text": "Hauptsache Frage. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0752",
+    "title": "Sinn analysiert",
+    "text": "Das war gut. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0753",
+    "title": "Nicht gegessen",
+    "text": "Auch eine Leistung. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0754",
+    "title": "Wut?",
+    "text": "Tief. Definitiv tief.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0755",
+    "title": "Halb geatmet",
+    "text": "Hauptsache Angst. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0756",
+    "title": "Nacht begonnen",
+    "text": "Das war klar. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0757",
+    "title": "Maus?",
+    "text": "Gut. Definitiv leicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0758",
+    "title": "Egal entschieden",
+    "text": "Hauptsache Bug. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0759",
+    "title": "Feature gelächelt",
+    "text": "Das war klar. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0760",
+    "title": "Energie?",
+    "text": "Grau. Definitiv früh.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0761",
+    "title": "Nicht gedrückt",
+    "text": "Auch eine Leistung. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0762",
+    "title": "Chaos?",
+    "text": "Echt. Definitiv analog.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0763",
+    "title": "Sinn verworfen",
+    "text": "Das war ganz. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0764",
+    "title": "Stark analysiert",
+    "text": "Hauptsache Boden. Ganz ruhig.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0765",
+    "title": "Stuhl?",
+    "text": "Müde. Definitiv richtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0766",
+    "title": "Richtig gesessen",
+    "text": "Hauptsache Ruhe. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0767",
+    "title": "Nicht gedrückt",
+    "text": "Auch eine Leistung. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0768",
+    "title": "Trüb ignoriert",
+    "text": "Hauptsache Logik. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0769",
+    "title": "Energie geklickt",
+    "text": "Das war nett. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0770",
+    "title": "Antwort überlebt",
+    "text": "Das war minimal. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0771",
+    "title": "Antwort?",
+    "text": "Falsch. Definitiv episch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0772",
+    "title": "Bett bemerkt",
+    "text": "Das war leise. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0773",
+    "title": "Freude?",
+    "text": "Böse. Definitiv leise.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0774",
+    "title": "Spät überlebt",
+    "text": "Hauptsache Wasser. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0775",
+    "title": "Nicht gewartet",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0776",
+    "title": "Stark reflektiert",
+    "text": "Hauptsache Energie. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0777",
+    "title": "Nicht bemerkt",
+    "text": "Auch eine Leistung. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0778",
+    "title": "Ruhe gelächelt",
+    "text": "Das war wichtig. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0779",
+    "title": "Kalt gedrückt",
+    "text": "Hauptsache Tag. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0780",
+    "title": "Maximal weggesehen",
+    "text": "Hauptsache Tastatur. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0781",
+    "title": "Echt begonnen",
+    "text": "Hauptsache Feature. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0782",
+    "title": "Nicht gedacht",
+    "text": "Auch eine Leistung. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0783",
+    "title": "Code gezogen",
+    "text": "Das war bunt. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0784",
+    "title": "Nichts?",
+    "text": "Egal. Definitiv leer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0785",
+    "title": "Wach geschlafen",
+    "text": "Hauptsache Gedanke. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0786",
+    "title": "Schatten?",
+    "text": "Lang. Definitiv frei.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0787",
+    "title": "Müde beobachtet",
+    "text": "Hauptsache Raum. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0788",
+    "title": "Nicht verloren",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0789",
+    "title": "Nicht gestanden",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0790",
+    "title": "Nicht geseufzt",
+    "text": "Auch eine Leistung. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0791",
+    "title": "Nicht existiert",
+    "text": "Auch eine Leistung. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0792",
+    "title": "Hell beobachtet",
+    "text": "Hauptsache Tisch. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0793",
+    "title": "Ruhig geblinzelt",
+    "text": "Hauptsache Stuhl. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0794",
+    "title": "Buch?",
+    "text": "Schnell. Definitiv böse.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0795",
+    "title": "Wasser?",
+    "text": "Früh. Definitiv stabil.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0796",
+    "title": "Freude?",
+    "text": "Schlecht. Definitiv ganz.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0797",
+    "title": "Neu geseufzt",
+    "text": "Hauptsache Mut. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0798",
+    "title": "Alles geschlafen",
+    "text": "Das war falsch. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0799",
+    "title": "Optimal vergessen",
+    "text": "Hauptsache Code. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0800",
+    "title": "Voll gegangen",
+    "text": "Hauptsache Tür. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0801",
+    "title": "Zeit gekratzt",
+    "text": "Das war klar. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0802",
+    "title": "Stuhl?",
+    "text": "Offen. Definitiv hart.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0803",
+    "title": "Tisch?",
+    "text": "Fest. Definitiv schwer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0804",
+    "title": "Echt reflektiert",
+    "text": "Hauptsache Stunde. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0805",
+    "title": "Gedanke?",
+    "text": "Schnell. Definitiv fake.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0806",
+    "title": "Schwer vergessen",
+    "text": "Hauptsache Schatten. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0807",
+    "title": "Hell geblieben",
+    "text": "Hauptsache Fenster. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0808",
+    "title": "Stark gegangen",
+    "text": "Hauptsache Logik. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0809",
+    "title": "Unsinn gehalten",
+    "text": "Das war minimal. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0810",
+    "title": "Minimal getrunken",
+    "text": "Hauptsache Sekunde. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0811",
+    "title": "Nicht gerannt",
+    "text": "Auch eine Leistung. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0812",
+    "title": "Flasche analysiert",
+    "text": "Das war müde. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0813",
+    "title": "Ganz hingelegt",
+    "text": "Hauptsache Handy. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0814",
+    "title": "Neu geblieben",
+    "text": "Hauptsache Flasche. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0815",
+    "title": "Code geplant",
+    "text": "Das war böse. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0816",
+    "title": "Lärm?",
+    "text": "Fake. Definitiv richtig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0817",
+    "title": "Nicht erinnert",
+    "text": "Auch eine Leistung. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0818",
+    "title": "Handy?",
+    "text": "Schwach. Definitiv lang.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0819",
+    "title": "Tag?",
+    "text": "Solide. Definitiv frei.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0820",
+    "title": "Sekunde?",
+    "text": "Schlecht. Definitiv leise.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0821",
+    "title": "Nett versucht",
+    "text": "Hauptsache Boden. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0822",
+    "title": "Antwort?",
+    "text": "Optimal. Definitiv optimal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0823",
+    "title": "Frage geschlafen",
+    "text": "Das war klar. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0824",
+    "title": "Voll verworfen",
+    "text": "Hauptsache Minute. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0825",
+    "title": "Nicht gedacht",
+    "text": "Auch eine Leistung. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0826",
+    "title": "Idee gestanden",
+    "text": "Das war spät. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0827",
+    "title": "Warm verworfen",
+    "text": "Hauptsache Wut. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0828",
+    "title": "Unsinn gerannt",
+    "text": "Das war echt. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0829",
+    "title": "Mut?",
+    "text": "Bunt. Definitiv hart.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0830",
+    "title": "Logik probiert",
+    "text": "Das war echt. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0831",
+    "title": "Nicht geschafft",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0832",
+    "title": "Feature beobachtet",
+    "text": "Das war laut. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0833",
+    "title": "Halb zugehört",
+    "text": "Hauptsache Schatten. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0834",
+    "title": "Schatten?",
+    "text": "Richtig. Definitiv optimal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0835",
+    "title": "Licht verworfen",
+    "text": "Das war schlecht. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0836",
+    "title": "Frage gekratzt",
+    "text": "Das war dunkel. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0837",
+    "title": "Dunkel aufgestanden",
+    "text": "Hauptsache Stift. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0838",
+    "title": "Freude?",
+    "text": "Klug. Definitiv früh.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0839",
+    "title": "Zeit geblieben",
+    "text": "Das war spät. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0840",
+    "title": "Nicht versucht",
+    "text": "Auch eine Leistung. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0841",
+    "title": "Ruhe überlebt",
+    "text": "Das war spät. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0842",
+    "title": "Code gedacht",
+    "text": "Das war schnell. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0843",
+    "title": "Minimal geschafft",
+    "text": "Hauptsache Leben. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0844",
+    "title": "Alt weggesehen",
+    "text": "Hauptsache Zeit. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0845",
+    "title": "Halb zugehört",
+    "text": "Hauptsache Nacht. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0846",
+    "title": "Nicht vergessen",
+    "text": "Auch eine Leistung. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0847",
+    "title": "Nicht gegessen",
+    "text": "Auch eine Leistung. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0848",
+    "title": "Fake geschlafen",
+    "text": "Hauptsache Sinn. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0849",
+    "title": "Idee gesessen",
+    "text": "Das war wild. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0850",
+    "title": "Schatten gescrollt",
+    "text": "Das war analog. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0851",
+    "title": "Offen gewonnen",
+    "text": "Hauptsache Code. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0852",
+    "title": "Buch?",
+    "text": "Neu. Definitiv gut.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0853",
+    "title": "Nicht aufgestanden",
+    "text": "Auch eine Leistung. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0854",
+    "title": "Nicht analysiert",
+    "text": "Auch eine Leistung. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0855",
+    "title": "Digital gehalten",
+    "text": "Hauptsache Moment. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0856",
+    "title": "Schnell überlebt",
+    "text": "Hauptsache Mut. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0857",
+    "title": "Stift?",
+    "text": "Alt. Definitiv gut.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0858",
+    "title": "Nicht verloren",
+    "text": "Auch eine Leistung. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0859",
+    "title": "Nicht versucht",
+    "text": "Auch eine Leistung. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0860",
+    "title": "Bug gezogen",
+    "text": "Das war schlecht. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0861",
+    "title": "Angst gelassen",
+    "text": "Das war dunkel. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0862",
+    "title": "Zettel?",
+    "text": "Neu. Definitiv offen.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0863",
+    "title": "Tastatur existiert",
+    "text": "Das war echt. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0864",
+    "title": "Dumm bemerkt",
+    "text": "Hauptsache Stift. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0865",
+    "title": "Sekunde geschwiegen",
+    "text": "Das war spät. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0866",
+    "title": "Klug geschlafen",
+    "text": "Hauptsache Frage. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0867",
+    "title": "Nacht versucht",
+    "text": "Das war halb. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0868",
+    "title": "Hungrig pausiert",
+    "text": "Hauptsache Handy. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0869",
+    "title": "Stabil geseufzt",
+    "text": "Hauptsache Decke. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0870",
+    "title": "Stille geatmet",
+    "text": "Das war fest. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0871",
+    "title": "Leicht gezogen",
+    "text": "Hauptsache Maus. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0872",
+    "title": "Stunde versucht",
+    "text": "Das war früh. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0873",
+    "title": "Tag?",
+    "text": "Leicht. Definitiv wach.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0874",
+    "title": "Nicht überlebt",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0875",
+    "title": "Buch?",
+    "text": "Müde. Definitiv schwer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0876",
+    "title": "Glas?",
+    "text": "Zu. Definitiv spät.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0877",
+    "title": "Nicht getrunken",
+    "text": "Auch eine Leistung. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0878",
+    "title": "Egal gelächelt",
+    "text": "Hauptsache Nichts. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0879",
+    "title": "Tisch gekratzt",
+    "text": "Das war wach. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0880",
+    "title": "Schwach probiert",
+    "text": "Hauptsache Code. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0881",
+    "title": "Zu pausiert",
+    "text": "Hauptsache Wut. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0882",
+    "title": "Neu weggesehen",
+    "text": "Hauptsache Gedanke. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0883",
+    "title": "Daten existiert",
+    "text": "Das war früh. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0884",
+    "title": "Klar geschafft",
+    "text": "Hauptsache Luft. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0885",
+    "title": "Code bemerkt",
+    "text": "Das war schwer. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0886",
+    "title": "Böse gekratzt",
+    "text": "Hauptsache Schatten. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0887",
+    "title": "Nicht verschoben",
+    "text": "Auch eine Leistung. Speedrun Strat.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0888",
+    "title": "Raum?",
+    "text": "Dumm. Definitiv tief.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0889",
+    "title": "Solide versucht",
+    "text": "Hauptsache Sofa. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0890",
+    "title": "Brot geklickt",
+    "text": "Das war alt. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0891",
+    "title": "Buch?",
+    "text": "Halb. Definitiv leer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0892",
+    "title": "Halb geblinzelt",
+    "text": "Hauptsache Buch. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0893",
+    "title": "Sinn vergessen",
+    "text": "Das war schwach. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0894",
+    "title": "Alles?",
+    "text": "Wichtig. Definitiv neu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0895",
+    "title": "Freude?",
+    "text": "Neu. Definitiv laut.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0896",
+    "title": "Analog getrunken",
+    "text": "Hauptsache Brot. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0897",
+    "title": "Früh geschwiegen",
+    "text": "Hauptsache Maus. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0898",
+    "title": "Bunt gewacht",
+    "text": "Hauptsache Idee. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0899",
+    "title": "Nicht geplant",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0900",
+    "title": "Schatten?",
+    "text": "Solide. Definitiv schlecht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0901",
+    "title": "Frage?",
+    "text": "Ruhig. Definitiv nett.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0902",
+    "title": "Episch entschieden",
+    "text": "Hauptsache Flasche. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0903",
+    "title": "Nicht gewartet",
+    "text": "Auch eine Leistung. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0904",
+    "title": "Kaffee verloren",
+    "text": "Das war tief. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0905",
+    "title": "Mut?",
+    "text": "Leise. Definitiv egal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0906",
+    "title": "Zeit?",
+    "text": "Maximal. Definitiv ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0907",
+    "title": "Schatten?",
+    "text": "Dunkel. Definitiv nett.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0908",
+    "title": "Nicht gedehnt",
+    "text": "Auch eine Leistung. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0909",
+    "title": "Tee?",
+    "text": "Wild. Definitiv alt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0910",
+    "title": "Nicht gehalten",
+    "text": "Auch eine Leistung. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0911",
+    "title": "Stuhl vergessen",
+    "text": "Das war schlecht. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0912",
+    "title": "Echt geseufzt",
+    "text": "Hauptsache Nichts. Warum nicht.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0913",
+    "title": "Wille getippt",
+    "text": "Das war früh. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0914",
+    "title": "Nicht gegangen",
+    "text": "Auch eine Leistung. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0915",
+    "title": "Chaos geschafft",
+    "text": "Das war richtig. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0916",
+    "title": "Satt pausiert",
+    "text": "Hauptsache Tisch. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0917",
+    "title": "Episch toleriert",
+    "text": "Hauptsache Raum. Mit System.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0918",
+    "title": "Mut geblinzelt",
+    "text": "Das war episch. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0919",
+    "title": "Fehler?",
+    "text": "Kurz. Definitiv klug.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0920",
+    "title": "Freude?",
+    "text": "Analog. Definitiv hart.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0921",
+    "title": "Nicht existiert",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0922",
+    "title": "Fake gekratzt",
+    "text": "Hauptsache Nichts. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0923",
+    "title": "Nicht geschafft",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0924",
+    "title": "Sofa gelassen",
+    "text": "Das war wild. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0925",
+    "title": "Nicht pausiert",
+    "text": "Auch eine Leistung. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0926",
+    "title": "Klar reflektiert",
+    "text": "Hauptsache Nacht. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0927",
+    "title": "Tag?",
+    "text": "Grau. Definitiv dumm.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0928",
+    "title": "Daten?",
+    "text": "Fake. Definitiv zu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0929",
+    "title": "Trüb verschoben",
+    "text": "Hauptsache Tag. Aus Prinzip.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0930",
+    "title": "Nichts gewacht",
+    "text": "Das war leer. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0931",
+    "title": "Tastatur geklickt",
+    "text": "Das war bunt. Glitchless.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0932",
+    "title": "Moment?",
+    "text": "Weich. Definitiv schnell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0933",
+    "title": "Nicht pausiert",
+    "text": "Auch eine Leistung. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0934",
+    "title": "Fenster geseufzt",
+    "text": "Das war warm. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0935",
+    "title": "Sofa?",
+    "text": "Richtig. Definitiv weich.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0936",
+    "title": "Nicht gescrollt",
+    "text": "Auch eine Leistung. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0937",
+    "title": "Flasche?",
+    "text": "Digital. Definitiv laut.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0938",
+    "title": "Kaffee?",
+    "text": "Klug. Definitiv leer.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0939",
+    "title": "Offen weggesehen",
+    "text": "Hauptsache Frage. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0940",
+    "title": "Bildschirm?",
+    "text": "Minimal. Definitiv stark.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0941",
+    "title": "Unsinn?",
+    "text": "Schnell. Definitiv wach.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0942",
+    "title": "Tastatur?",
+    "text": "Alt. Definitiv kurz.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0943",
+    "title": "Brot ignoriert",
+    "text": "Das war episch. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0944",
+    "title": "Chaos?",
+    "text": "Gut. Definitiv zu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0945",
+    "title": "Nicht gewonnen",
+    "text": "Auch eine Leistung. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0946",
+    "title": "Nichts vergessen",
+    "text": "Das war offen. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0947",
+    "title": "Neu hingelegt",
+    "text": "Hauptsache Tee. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0948",
+    "title": "Zeit?",
+    "text": "Dunkel. Definitiv ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0949",
+    "title": "Nicht reflektiert",
+    "text": "Auch eine Leistung. Ging nicht anders.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0950",
+    "title": "Hungrig verloren",
+    "text": "Hauptsache Tür. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0951",
+    "title": "Schlecht hingelegt",
+    "text": "Hauptsache Handy. Musste sein.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0952",
+    "title": "Nicht gerannt",
+    "text": "Auch eine Leistung. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0953",
+    "title": "Nicht zugehört",
+    "text": "Auch eine Leistung. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0954",
+    "title": "Brot?",
+    "text": "Trüb. Definitiv maximal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0955",
+    "title": "Maus geklickt",
+    "text": "Das war kurz. Main Character Energy.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0956",
+    "title": "Glas existiert",
+    "text": "Das war hart. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0957",
+    "title": "Ganz existiert",
+    "text": "Hauptsache Sekunde. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0958",
+    "title": "Kraft?",
+    "text": "Schwach. Definitiv neu.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0959",
+    "title": "Bildschirm?",
+    "text": "Leer. Definitiv ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0960",
+    "title": "Nicht ignoriert",
+    "text": "Auch eine Leistung. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0961",
+    "title": "Nicht gewartet",
+    "text": "Auch eine Leistung. Ohne Grund.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0962",
+    "title": "Nicht geblieben",
+    "text": "Auch eine Leistung. Wie ein NPC.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0963",
+    "title": "Zeit gegangen",
+    "text": "Das war wach. Main Character Energy.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0964",
+    "title": "Alt geblinzelt",
+    "text": "Hauptsache Sekunde. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0965",
+    "title": "Sofa?",
+    "text": "Tief. Definitiv trüb.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0966",
+    "title": "Kaffee?",
+    "text": "Schnell. Definitiv stark.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0967",
+    "title": "Fenster geblinzelt",
+    "text": "Das war wild. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0968",
+    "title": "Gedanke?",
+    "text": "Solide. Definitiv früh.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0969",
+    "title": "Schnell begonnen",
+    "text": "Hauptsache Schatten. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0970",
+    "title": "Stunde gescrollt",
+    "text": "Das war ruhig. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0971",
+    "title": "Logik?",
+    "text": "Bunt. Definitiv schnell.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0972",
+    "title": "Nicht geschlafen",
+    "text": "Auch eine Leistung. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0973",
+    "title": "Nicht probiert",
+    "text": "Auch eine Leistung. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0974",
+    "title": "Nicht vergessen",
+    "text": "Auch eine Leistung. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0975",
+    "title": "Nicht zugehört",
+    "text": "Auch eine Leistung. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0976",
+    "title": "Leben?",
+    "text": "Episch. Definitiv frei.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0977",
+    "title": "Grau aufgestanden",
+    "text": "Hauptsache Unsinn. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0978",
+    "title": "Nicht toleriert",
+    "text": "Auch eine Leistung. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0979",
+    "title": "Minimal gewonnen",
+    "text": "Hauptsache Daten. Sogar zwei Mal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0980",
+    "title": "Digital existiert",
+    "text": "Hauptsache Wille. Ganz entspannt.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0981",
+    "title": "Wasser?",
+    "text": "Grau. Definitiv warm.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0982",
+    "title": "Wille versucht",
+    "text": "Das war neu. Ganz ruhig.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0983",
+    "title": "Bug zugehört",
+    "text": "Das war stark. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0984",
+    "title": "Wasser begonnen",
+    "text": "Das war falsch. Besser so.",
+    "rarity": "common",
+    "daily": true
+  },
+  {
+    "id": "a0985",
+    "title": "Idee?",
+    "text": "Hungrig. Definitiv episch.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0986",
+    "title": "Tür geatmet",
+    "text": "Das war laut. Besser so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0987",
+    "title": "Nicht geatmet",
+    "text": "Auch eine Leistung. Ohne Plan.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0988",
+    "title": "Schwer geblieben",
+    "text": "Hauptsache Wut. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0989",
+    "title": "Müde geschwiegen",
+    "text": "Hauptsache Decke. Karma.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0990",
+    "title": "Grau gedehnt",
+    "text": "Hauptsache Ruhe. Einfach so.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0991",
+    "title": "Böse analysiert",
+    "text": "Hauptsache Schatten. Trotzdem.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0992",
+    "title": "Nicht geschoben",
+    "text": "Auch eine Leistung. Schicksal.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0993",
+    "title": "Stark gewonnen",
+    "text": "Hauptsache Freude. Any%.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0994",
+    "title": "Schwer gesessen",
+    "text": "Hauptsache Plan. War okay.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0995",
+    "title": "Stift?",
+    "text": "Weich. Definitiv wach.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0996",
+    "title": "Nicht geschwiegen",
+    "text": "Auch eine Leistung. Zufall?",
+    "rarity": "common"
+  },
+  {
+    "id": "a0997",
+    "title": "Stunde geseufzt",
+    "text": "Das war früh. Meta.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0998",
+    "title": "Nicht getrunken",
+    "text": "Auch eine Leistung. Für die Wissenschaft.",
+    "rarity": "common"
+  },
+  {
+    "id": "a0999",
+    "title": "Nicht verschoben",
+    "text": "Auch eine Leistung. Fast.",
+    "rarity": "common"
+  },
+  {
+    "id": "a1000",
+    "title": "Ganz gedacht",
+    "text": "Hauptsache Fehler. Ganz ruhig.",
+    "rarity": "common"
+  }
+]
