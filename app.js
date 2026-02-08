@@ -1,270 +1,197 @@
 // app.js
 
-// --- Global Data ---
-let achievements = [];
+// --- Config ---
+const XP_TABLE = { common: 10, rare: 50, ultra: 200 };
+const LEVEL_BASE = 100; // XP needed for lvl 2
 
-// --- Config & State ---
-const STORAGE_KEY = 'la_unlocked'; // Speichert Array von IDs [ "a0001", "a0042", ... ]
-const DAILY_KEY = 'la_daily'; // Format: {date: "2024-01-01", id: "a0012"}
-
+// --- State ---
 let state = {
-  unlockedIds: JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'),
-  current: null,
-  streak: 0,
-  dailyDone: null
+  unlocked: JSON.parse(localStorage.getItem('life_unlocks') || '[]'),
+  xp: parseInt(localStorage.getItem('life_xp') || '0'),
+  level: parseInt(localStorage.getItem('life_lvl') || '1'),
+  filterNew: true,
+  current: null
 };
 
-// Check Daily LocalStorage
-try {
-  const savedDaily = JSON.parse(localStorage.getItem(DAILY_KEY));
-  const today = new Date().toISOString().slice(0, 10);
-  if (savedDaily && savedDaily.date === today) {
-    state.dailyDone = savedDaily;
-  }
-} catch (e) { console.error("Storage Error", e); }
-
-// DOM Elements
-const dom = {
-  card: document.getElementById('achievement-card'),
-  title: document.getElementById('card-title'),
-  desc: document.getElementById('card-desc'),
-  pill: document.getElementById('rarity-pill'),
-  btnDone: document.getElementById('btn-done'),
-  btnShare: document.getElementById('btn-share'),
-  stats: document.getElementById('real-stats'),
-  overlay: document.getElementById('unlock-overlay'),
-  overlayText: document.getElementById('overlay-text'),
-  toast: document.getElementById('streak-toast'),
-  btnCopyLink: document.getElementById('btn-copy-link'),
-  toggleNew: document.getElementById('toggle-new-only'),
-  btnReset: document.getElementById('btn-reset'),
+// --- DOM Cache ---
+const el = {
+  card: document.getElementById('card'),
+  title: document.getElementById('title'),
+  desc: document.getElementById('desc'),
+  badgeRarity: document.getElementById('badge-rarity'),
+  badgeDaily: document.getElementById('badge-daily'),
+  xpReward: document.getElementById('xp-reward-val'),
+  btn: document.getElementById('btn-main'),
+  btnTxt: document.querySelector('.btn-txt'),
+  lvlNum: document.getElementById('lvl-num'),
+  xpCurrent: document.getElementById('xp-current'),
+  xpNext: document.getElementById('xp-next'),
+  xpBar: document.getElementById('xp-bar'),
+  totalStats: document.getElementById('total-stats'),
+  overlay: document.getElementById('overlay-lvl'),
+  overlayLvl: document.getElementById('overlay-lvl-num')
 };
 
-// --- Initial Data Load ---
-async function initApp() {
-  try {
-    dom.title.textContent = "Lade Daten...";
-    dom.desc.textContent = "Bitte warten...";
+// --- Core ---
 
-    // Versuche achievements.json zu laden
-    const response = await fetch('achievements.json');
-    if (!response.ok) throw new Error('Network error');
+function save() {
+  localStorage.setItem('life_unlocks', JSON.stringify(state.unlocked));
+  localStorage.setItem('life_xp', state.xp.toString());
+  localStorage.setItem('life_lvl', state.level.toString());
+  updateStatsUI();
+}
 
-    achievements = await response.json();
+function getXpForNextLevel(lvl) {
+  return Math.floor(LEVEL_BASE * Math.pow(1.5, lvl - 1));
+}
 
-    console.log(`Loaded ${achievements.length} achievements.`);
-    updateStats();
-    loadNext(); // Start game
+function updateStatsUI() {
+  // XP & Level UI
+  const nextLvlXp = getXpForNextLevel(state.level);
+  el.lvlNum.textContent = state.level;
+  el.xpCurrent.textContent = state.xp;
+  el.xpNext.textContent = nextLvlXp;
 
-  } catch (err) {
-    console.error("Failed to load achievements:", err);
-    dom.title.textContent = "Fehler";
-    dom.desc.textContent = "Konnte Achievements nicht laden. (Läuft lokal ohne Server?)";
-    // Fallback Daten, falls fetch fehlschlägt (z.B. lokale Datei ohne Server)
-    achievements = [
-      { id: "err01", title: "Offline Modus", desc: "Starte einen lokalen Server (zb Live Server)", rarity: "common" }
-    ];
-    loadNext();
+  // Bar Logic
+  let xpRequiredForCurrent = 0;
+  for (let i = 1; i < state.level; i++) xpRequiredForCurrent += getXpForNextLevel(i);
+
+  const xpInThisLevel = Math.max(0, state.xp - xpRequiredForCurrent);
+  const xpNeededForNext = getXpForNextLevel(state.level);
+
+  const percent = Math.min(100, (xpInThisLevel / xpNeededForNext) * 100);
+  el.xpBar.style.width = `${percent}%`;
+
+  // Total Stats
+  el.totalStats.textContent = `${state.unlocked.length} / ${ALL_ITEMS.length}`;
+}
+
+function nextCard() {
+  // Filter Pool
+  let pool = ALL_ITEMS;
+  if (state.filterNew) {
+    pool = ALL_ITEMS.filter(a => !state.unlocked.includes(a.id));
+  }
+
+  // Fallback if empty
+  if (pool.length === 0) {
+    if (state.filterNew) {
+      pool = ALL_ITEMS;
+    } else {
+      el.title.textContent = "GAME OVER";
+      el.desc.textContent = "Du hast das Leben durchgespielt. Respekt.";
+      el.btn.disabled = true;
+      return;
+    }
+  }
+
+  // Pick Random
+  const item = pool[Math.floor(Math.random() * pool.length)];
+  state.current = item;
+
+  // Render
+  el.card.setAttribute('data-rarity', item.rarity);
+  el.title.textContent = item.title;
+  el.desc.textContent = item.text;
+  el.badgeRarity.textContent = item.rarity;
+
+  el.badgeDaily.classList.toggle('hidden', !item.daily);
+
+  const xpVal = XP_TABLE[item.rarity] || 10;
+  el.xpReward.textContent = xpVal;
+
+  // Check State
+  const isUnlocked = state.unlocked.includes(item.id);
+  if (isUnlocked) {
+    el.btnTxt.textContent = "BEREITS ERLEDIGT";
+    el.btn.classList.add('done');
+  } else {
+    el.btnTxt.textContent = "ERLEDIGT";
+    el.btn.classList.remove('done');
   }
 }
 
-// --- Logik: Weighted Random Selection ---
-function getWeightedRandomAchievement() {
-  if (achievements.length === 0) return null;
+function spawnParticles(x, y) {
+  for (let i = 0; i < 12; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    document.body.appendChild(p);
 
-  const onlyNew = dom.toggleNew.checked;
-  const today = new Date().toISOString().slice(0, 10);
+    const angle = Math.random() * Math.PI * 2;
+    const velocity = 50 + Math.random() * 150;
+    const tx = Math.cos(angle) * velocity;
+    const ty = Math.sin(angle) * velocity;
 
-  // 1. Basis-Pool filtern
-  let pool = achievements.filter(a => {
-    // Daily Filter: Wenn Daily heute schon gemacht, keine Dailies mehr anzeigen
-    if (state.dailyDone && state.dailyDone.date === today && a.daily) return false;
+    p.style.left = x + 'px';
+    p.style.top = y + 'px';
+    p.style.setProperty('--x', `${tx}px`);
+    p.style.setProperty('--y', `${ty}px`);
 
-    // New Filter: Wenn Toggle an, nur nicht freigeschaltete
-    if (onlyNew && state.unlockedIds.includes(a.id)) return false;
-
-    return true;
-  });
-
-  // Fallback: Wenn Pool leer (z.B. alles fertig), toggle-Filter ignorieren, aber Daily Regel bleibt
-  if (pool.length === 0 && onlyNew) {
-    pool = achievements.filter(a => {
-      if (state.dailyDone && state.dailyDone.date === today && a.daily) return false;
-      return true;
-    });
+    setTimeout(() => p.remove(), 1000);
   }
-
-  if (pool.length === 0) return null; // Sollte kaum passieren außer alles gesperrt
-
-  // 2. Gruppieren nach Rarity in diesem gefilterten Pool
-  const commons = pool.filter(a => a.rarity === 'common');
-  const rares = pool.filter(a => a.rarity === 'rare');
-  const ultras = pool.filter(a => a.rarity === 'ultra');
-
-  // 3. Würfeln (0 - 100) für Rarity-Tier
-  const roll = Math.random() * 100;
-
-  // Versuch Reihenfolge: Ultra (1%) -> Rare (9%) -> Common (Rest)
-  // Wir wählen eine Gruppe, wenn sie nicht leer ist. Sonst Fallback.
-
-  let targetGroup = commons; // Default 90%
-
-  if (roll > 99) { // 1% Chance
-    targetGroup = ultras.length > 0 ? ultras : (rares.length > 0 ? rares : commons);
-  } else if (roll > 90) { // 9% Chance
-    targetGroup = rares.length > 0 ? rares : (commons.length > 0 ? commons : ultras);
-  } else { // 90% Chance
-    targetGroup = commons.length > 0 ? commons : (rares.length > 0 ? rares : ultras);
-  }
-
-  // Zufälliges Item aus der gewählten Gruppe
-  if (targetGroup.length === 0) return pool[0]; // Absolute Fallback
-  return targetGroup[Math.floor(Math.random() * targetGroup.length)];
 }
 
-function renderCard(ach) {
-  if (!ach) {
-    dom.title.textContent = "Alles erledigt!";
-    dom.desc.textContent = "Komm morgen wieder für Daily Quests.";
-    dom.pill.style.display = 'none';
-    dom.btnDone.disabled = true;
-    return;
+function checkLevelUp() {
+  let threshold = 0;
+  for (let i = 1; i <= state.level; i++) threshold += getXpForNextLevel(i);
+
+  if (state.xp >= threshold) {
+    state.level++;
+    el.overlayLvl.textContent = state.level;
+    el.overlay.classList.add('show');
+    setTimeout(() => el.overlay.classList.remove('show'), 2000);
+    save();
   }
-
-  state.current = ach;
-  dom.title.textContent = ach.title;
-  dom.desc.textContent = ach.text; // Key 'text' statt 'desc' im JSON
-  dom.pill.textContent = ach.rarity;
-  dom.pill.style.display = 'block';
-  dom.card.setAttribute('data-rarity', ach.rarity);
-
-  // Button State wenn unlocked
-  const isUnlocked = state.unlockedIds.includes(ach.id);
-  dom.btnDone.textContent = isUnlocked ? "Nochmal ✅" : "Erledigt ✅";
-  dom.btnDone.style.opacity = isUnlocked ? "0.7" : "1";
-  dom.btnDone.disabled = false;
 }
 
-function loadNext() {
-  const ach = getWeightedRandomAchievement();
-  renderCard(ach);
-}
-
-// --- Actions ---
-
-function unlock() {
+function handleAction(e) {
   if (!state.current) return;
   const item = state.current;
 
-  // Logic: Unlocked speichern
-  if (!state.unlockedIds.includes(item.id)) {
-    state.unlockedIds.push(item.id);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state.unlockedIds));
-    updateStats();
+  // Visual Pulse
+  el.card.classList.remove('unlocked-pulse');
+  void el.card.offsetWidth; // trigger reflow
+  el.card.classList.add('unlocked-pulse');
+
+  // Particle Origin
+  const rect = el.btn.getBoundingClientRect();
+  const cx = rect.left + rect.width / 2;
+  const cy = rect.top + rect.height / 2;
+  spawnParticles(cx, cy);
+
+  // Logic
+  if (!state.unlocked.includes(item.id)) {
+    // Unlock New
+    state.unlocked.push(item.id);
+    const gain = XP_TABLE[item.rarity] || 10;
+    state.xp += gain;
+
+    save();
+    checkLevelUp();
   }
 
-  // Logic: Daily speichern
-  if (item.daily) {
-    const today = new Date().toISOString().slice(0, 10);
-    const dailyObj = { date: today, id: item.id };
-    state.dailyDone = dailyObj;
-    localStorage.setItem(DAILY_KEY, JSON.stringify(dailyObj));
-  }
-
-  // UI: Show Overlay
-  let text = "Stabil.";
-  if (item.rarity === 'rare') text = "Respekt. Selten.";
-  if (item.rarity === 'ultra') text = "Okay... krass.";
-  dom.overlayText.textContent = text;
-
-  dom.overlay.classList.remove('hidden');
-  dom.overlay.classList.add('show');
-
-  // UI: Card Animation
-  dom.card.classList.add('animate-unlock');
-  dom.btnDone.disabled = true;
-
-  // Easter Egg Check
-  state.streak++;
-  if (state.streak % 3 === 0) {
-    showStreakToast();
-  }
-
-  // Cleanup Timer
+  // Next Card after delay
   setTimeout(() => {
-    dom.overlay.classList.remove('show');
-    dom.overlay.classList.add('hidden');
-    dom.card.classList.remove('animate-unlock');
-    dom.btnDone.disabled = false;
-    loadNext();
-  }, 2000); // 2s Animationszeit
+    nextCard();
+  }, 400);
 }
 
-function updateStats() {
-  dom.stats.textContent = `Freigeschaltet: ${state.unlockedIds.length} / ${achievements.length}`;
-}
+// --- Events ---
+el.btn.addEventListener('click', handleAction);
 
-// --- Share & Copy ---
-
-async function copyToClipboard(text) {
-  try {
-    await navigator.clipboard.writeText(text);
-    return true;
-  } catch (err) {
-    // Fallback für ältere Browser
-    const ta = document.createElement('textarea');
-    ta.value = text;
-    document.body.appendChild(ta);
-    ta.select();
-    document.execCommand('copy');
-    document.body.removeChild(ta);
-    return true;
-  }
-}
-
-function handleShare() {
-  if (!state.current) return;
-  const text = `Ich habe gerade '${state.current.title}' freigeschaltet – ${state.current.text} #LifeTheGame`;
-
-  copyToClipboard(text).then(() => {
-    const oldText = dom.btnShare.textContent;
-    dom.btnShare.textContent = "Kopiert! 👌";
-    setTimeout(() => dom.btnShare.textContent = oldText, 2000);
-  });
-}
-
-function showStreakToast() {
-  dom.toast.classList.remove('hidden');
-  dom.toast.classList.add('show');
-
-  setTimeout(() => {
-    dom.toast.classList.remove('show');
-    dom.toast.classList.add('hidden');
-  }, 8000);
-}
-
-// --- Event Listeners ---
-
-dom.btnDone.addEventListener('click', unlock);
-dom.btnShare.addEventListener('click', handleShare);
-dom.toggleNew.addEventListener('change', loadNext);
-
-dom.btnCopyLink.addEventListener('click', () => {
-  copyToClipboard(window.location.href);
-  dom.btnCopyLink.textContent = "Link kopiert!";
+document.getElementById('btn-filter').addEventListener('click', () => {
+  state.filterNew = !state.filterNew;
+  document.getElementById('btn-filter').classList.toggle('active', state.filterNew);
+  nextCard();
 });
 
-dom.btnReset.addEventListener('click', () => {
-  if (confirm("Wirklich alles zurücksetzen?")) {
-    localStorage.removeItem(STORAGE_KEY);
-    localStorage.removeItem(DAILY_KEY);
-    state.unlockedIds = [];
-    state.dailyDone = null;
-    state.streak = 0;
-    updateStats();
-    loadNext();
+document.getElementById('btn-share').addEventListener('click', () => {
+  if (state.current) {
+    const txt = `Lvl ${state.level} LifeUser | "${state.current.title}" freigeschaltet. #LifeOS`;
+    navigator.clipboard.writeText(txt).then(() => alert("Copied!"));
   }
 });
 
 // Init
-initApp();
+updateStatsUI();
+nextCard();

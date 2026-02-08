@@ -3,64 +3,81 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Achievement Unlocked: Leben</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Life Unlocked</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- Overlay für Unlock Feedback -->
-  <div id="unlock-overlay" class="hidden">
-    <div class="badge-container">
-      <div class="badge-icon">🏆</div>
-      <div class="badge-content">
-        <div class="badge-title">ACHIEVEMENT UNLOCKED</div>
-        <div id="overlay-text" class="badge-subtitle">Stabil.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Easter Egg Toast -->
-  <div id="streak-toast" class="hidden">
-    <p>🔥 3er Streak! Schick das jemandem, der das auch braucht 😈</p>
-    <button id="btn-copy-link">Link kopieren</button>
-  </div>
+  <!-- Ambient Background -->
+  <div class="particles-bg" id="particles-bg"></div>
 
   <div class="app-container">
+
+    <!-- Header mit XP Bar -->
     <header>
-      <div class="brand">Life: The Game</div>
-      <div class="fake-progress">Fortschritt: 97%</div>
+      <div class="top-row">
+        <div class="brand">LIFE <span class="accent">OS</span></div>
+        <div class="level-display">LVL <span id="lvl-num">1</span></div>
+      </div>
+      <div class="xp-track">
+        <div class="xp-fill" id="xp-bar" style="width: 0%"></div>
+      </div>
+      <div class="xp-text"><span id="xp-current">0</span> / <span id="xp-next">100</span> XP</div>
     </header>
 
-    <div class="stats-bar">
-      <span id="real-stats">Freigeschaltet: 0 / 24</span>
-    </div>
-
+    <!-- Main Card Area -->
     <main>
-      <div class="card-wrapper">
-        <div class="card" id="achievement-card">
-          <div class="rarity-pill" id="rarity-pill">COMMON</div>
-          <h2 id="card-title">Lade...</h2>
-          <p id="card-desc">Suche nach Lebenssinn...</p>
+      <div class="card-stack">
+        <div id="card" class="card">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <div class="card-header">
+              <span id="badge-rarity" class="badge">COMMON</span>
+              <span id="badge-daily" class="badge daily hidden">DAILY</span>
+            </div>
+            <h1 id="title">System Start...</h1>
+            <p id="desc">Initialisiere Lebenssimulation.</p>
+            <div class="xp-reward">+ <span id="xp-reward-val">10</span> XP</div>
+          </div>
         </div>
       </div>
-
-      <div class="actions">
-        <button id="btn-done" class="btn-primary">Erledigt ✅</button>
-        <button id="btn-share" class="btn-secondary">Copy Share-Text 📋</button>
-      </div>
-
-      <div class="controls">
-        <label class="toggle-switch">
-          <input type="checkbox" id="toggle-new-only" checked>
-          <span class="slider-text">Nur neue zeigen</span>
-        </label>
-        <button id="btn-reset" class="btn-text">Reset Savegame</button>
-      </div>
     </main>
+
+    <!-- Controls -->
+    <footer>
+      <button id="btn-main" class="btn-primary">
+        <span class="btn-txt">ERLEDIGT</span>
+        <span class="btn-shine"></span>
+      </button>
+
+      <div class="toolbar">
+        <button id="btn-share" class="tool-btn" aria-label="Teilen">
+          <span class="icon">🔗</span>
+        </button>
+
+        <div class="stats-counter" id="total-stats">0 / 1000</div>
+
+        <button id="btn-filter" class="tool-btn active" aria-label="Filter">
+          <span class="filter-icon">⚡</span>
+        </button>
+      </div>
+    </footer>
   </div>
 
+  <!-- Level Up Overlay -->
+  <div id="overlay-lvl" class="overlay">
+    <div class="overlay-content">
+      <div class="lvl-up-txt">LEVEL UP!</div>
+      <div class="lvl-big" id="overlay-lvl-num">2</div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
 
