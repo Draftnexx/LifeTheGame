@@ -1,189 +1,212 @@
 // app.js
-// Logik für ein echtes, ruhiges Achievement-System
+/* ACHIEVEMENT: THE GAME | Quiet Luxury Edition v4.0 */
 
-// --- Config ---
+// --- DATA: Hand-written, real items ---
+const RAW_DATA = [
+  // COMMON (1)
+  { t: "Aufgestanden", r: "common" }, { t: "Wasser getrunken", r: "common" },
+  { t: "Etwas gegessen", r: "common" }, { t: "Fenster geöffnet", r: "common" },
+  { t: "Tief durchgeatmet", r: "common" }, { t: "Kurz gesessen", r: "common" },
+  { t: "Nachgedacht", r: "common" }, { t: "Müll rausgebracht", r: "common" },
+  { t: "Nicht sofort reagiert", r: "common" }, { t: "App geschlossen", r: "common" },
+  { t: "Tab geschlossen", r: "common" }, { t: "Licht ausgemacht", r: "common" },
+  { t: "Nachricht gelesen", r: "common" }, { t: "Zähne geputzt", r: "common" },
+  { t: "Schuhe angezogen", r: "common" }, { t: "Himmel angesehen", r: "common" },
+  { t: "Gelächelt", r: "common" }, { t: "Kurz gewartet", r: "common" },
+  { t: "Nichts gesagt", r: "common" }, { t: "Zugehört", r: "common" },
+  { t: "Ladekabel gefunden", r: "common" }, { t: "Kurz bewegt", r: "common" },
+  { t: "Etwas gefunden", r: "common" }, { t: "Etwas weggelegt", r: "common" },
+
+  // RARE (2)
+  { t: "Gedanken sortiert", r: "rare" }, { t: "Ruhe bewahrt", r: "rare" },
+  { t: "Chaos akzeptiert", r: "rare" }, { t: "Plan gemacht", r: "rare" },
+  { t: "Nein gesagt", r: "rare" }, { t: "Grenze gesetzt", r: "rare" },
+  { t: "Sich konzentriert", r: "rare" }, { t: "Ehrlich gewesen", r: "rare" },
+  { t: "Hilfe angeboten", r: "rare" }, { t: "Etwas beendet", r: "rare" },
+  { t: "Nicht abgelenkt", r: "rare" }, { t: "Durchgeatmet", r: "rare" },
+
+  // ULTRA (3)
+  { t: "Mut gehabt", r: "ultra" }, { t: "Sich selbst verziehen", r: "ultra" },
+  { t: "Angst ausgehalten", r: "ultra" }, { t: "Klarheit gefunden", r: "ultra" },
+  { t: "Herz geöffnet", r: "ultra" }, { t: "Einfach vertraut", r: "ultra" },
+
+  // LEGENDARY (4)
+  { t: "Frieden gemacht", r: "legendary" }, { t: "Sich akzeptiert", r: "legendary" },
+  { t: "Angekommen", r: "legendary" }, { t: "Ganz da", r: "legendary" }
+];
+
+const ALL_ITEMS = RAW_DATA.map((item, i) => ({
+  id: `a${(i + 1).toString().padStart(3, '0')}`,
+  title: item.t,
+  rarity: item.r,
+  difficulty: item.r === 'common' ? 1 : (item.r === 'rare' ? 2 : (item.r === 'ultra' ? 3 : 4))
+}));
+
+// --- CONFIG ---
 const CONFIG = {
-  // Difficulty als Multiplikator für XP? Nein, wir halten es simpel.
-  // difficulty: 1 (Common) bis 4 (Legendary)
-  xpMap: { common: 10, rare: 50, ultra: 150, legendary: 500 },
-  storageKey: 'archilife_save_v1',
-  // Skip-Messages für den Meta-Moment (wertschätzend)
-  metaMessages: [
-    "Auch das zählt.",
-    "Kein Druck.",
-    "Alles zu seiner Zeit.",
-    "Du musst nichts beweisen.",
-    "Heute nicht ist auch okay.",
-    "Atmen reicht.",
-    "Ruhe bewahren.",
-    "Passt schon."
-  ]
+  storageKey: 'life_unlocked_v4_lux',
+  soundEnabled: true,
+  volume: 0.15
 };
 
-// --- State ---
-let state = {
-  unlocked: [], // IDs
-  level: 1,
-  xp: 0,
-  skipStreak: 0,
-  currentItem: null
+// --- AUDIO (Web Audio API) ---
+const audio = {
+  ctx: null,
+  init: function () {
+    if (!this.ctx) this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+    if (this.ctx.state === 'suspended') this.ctx.resume();
+  },
+  play: function (type) {
+    if (!CONFIG.soundEnabled || !this.ctx) return;
+    this.init();
+    const t = this.ctx.currentTime;
+    const osc = this.ctx.createOscillator();
+    const gain = this.ctx.createGain();
+    osc.connect(gain);
+    gain.connect(this.ctx.destination);
+    const vol = CONFIG.volume;
+
+    if (type === 'common') { // Soft Ping
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(800, t);
+      osc.frequency.exponentialRampToValueAtTime(400, t + 0.15);
+      gain.gain.setValueAtTime(0, t);
+      gain.gain.linearRampToValueAtTime(vol, t + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.3);
+      osc.start(t); osc.stop(t + 0.3);
+    } else if (type === 'rare') { // Richer
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(600, t);
+      osc.frequency.exponentialRampToValueAtTime(1200, t + 0.4);
+      gain.gain.setValueAtTime(0, t);
+      gain.gain.linearRampToValueAtTime(vol * 0.8, t + 0.05);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.5);
+      osc.start(t); osc.stop(t + 0.5);
+    } else if (type === 'ultra') { // Deep Shimmer
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(200, t);
+      osc.frequency.linearRampToValueAtTime(300, t + 0.6);
+      gain.gain.setValueAtTime(0, t);
+      gain.gain.linearRampToValueAtTime(vol * 1.2, t + 0.1);
+      gain.gain.linearRampToValueAtTime(0.001, t + 0.8);
+      osc.start(t); osc.stop(t + 0.8);
+    } else if (type === 'legendary') { // Ethereal
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(110, t);
+      gain.gain.setValueAtTime(0, t);
+      gain.gain.linearRampToValueAtTime(vol * 1.5, t + 0.5);
+      gain.gain.linearRampToValueAtTime(0.001, t + 2.0);
+      osc.start(t); osc.stop(t + 2.0);
+    }
+  }
 };
 
-// --- DOM Cache ---
-const ui = {
+// --- STATE ---
+let state = { unlocked: new Set(), currentItem: null };
+
+// --- DOM ---
+const el = {
   card: document.getElementById('card'),
   title: document.getElementById('card-title'),
-  desc: document.getElementById('card-desc'),
-  badge: document.getElementById('badge-rarity'),
-  status: document.getElementById('status-msg'),
-  lvl: document.getElementById('lvl-display'),
-  stats: document.getElementById('stats-display'),
-  overlay: document.getElementById('overlay'),
-  overlayNum: document.getElementById('lvl-overlay-num')
+  diff: document.getElementById('card-difficulty'),
+  rarity: document.getElementById('badge-rarity'),
+  stats: document.getElementById('real-stats'),
+  overlay: document.getElementById('unlock-overlay'),
+  toast: document.getElementById('toast'),
+  btnUnlock: document.getElementById('btn-unlock'),
+  btnSkip: document.getElementById('btn-skip'),
+  soundOn: document.querySelector('.sound-on'),
+  soundOff: document.querySelector('.sound-off')
 };
 
-// --- Logic ---
-
+// --- CORE ---
 function load() {
-  try {
-    const d = JSON.parse(localStorage.getItem(CONFIG.storageKey));
-    if (d) {
-      state.unlocked = d.unlocked || [];
-      state.level = d.level || 1;
-      state.xp = d.xp || 0;
-    }
-  } catch (e) { }
+  const raw = localStorage.getItem(CONFIG.storageKey);
+  if (raw) JSON.parse(raw).forEach(id => state.unlocked.add(id));
 }
-
 function save() {
-  localStorage.setItem(CONFIG.storageKey, JSON.stringify({
-    unlocked: state.unlocked,
-    level: state.level,
-    xp: state.xp
-  }));
-  updateUI();
+  localStorage.setItem(CONFIG.storageKey, JSON.stringify([...state.unlocked]));
+  updateStats();
+}
+function updateStats() {
+  el.stats.textContent = `${state.unlocked.size} / ${ALL_ITEMS.length}`;
+}
+function getNext() {
+  const pool = ALL_ITEMS.filter(i => !state.unlocked.has(i.id));
+  if (pool.length === 0) return null;
+  return pool[Math.floor(Math.random() * pool.length)]; // Pure Random
 }
 
-function updateUI() {
-  ui.lvl.innerText = state.level;
-  ui.stats.innerText = `${state.unlocked.length} / ${ALL_ITEMS.length}`;
-}
-
-function getNextItem() {
-  // Filter Items: Nicht unlocked
-  const pool = ALL_ITEMS.filter(i => !state.unlocked.includes(i.id));
-  if (pool.length === 0) return null; // Game Over (oder Prestige)
-
-  // Weighted Random?
-  // Hier simpel: Random aus Pool.
-  // Optional: Seltene seltener machen?
-  // Der User hat schon eine Liste sortiert, wir nehmen einfach random einen verfügbaren.
-  return pool[Math.floor(Math.random() * pool.length)];
-}
-
-function renderCard(item) {
+function render(item) {
   if (!item) {
-    ui.title.innerText = "Alles erledigt";
-    ui.desc.innerText = "Du hast das Ende erreicht.";
-    document.getElementById('btn-unlock').disabled = true;
-    document.getElementById('btn-skip').disabled = true;
+    el.title.innerText = "Alles erledigt";
+    el.diff.innerText = "Ende";
+    el.btnUnlock.disabled = true;
+    el.btnSkip.disabled = true;
     return;
   }
-
   state.currentItem = item;
+  el.title.innerText = item.title;
+  el.rarity.innerText = item.rarity;
 
-  ui.title.innerText = item.title;
-  // Difficulty als subtilen Text/Desc nutzen?
-  // User hat keine Descriptions geliefert, außer Titel.
-  // Wir nutzen den Rarity-Text als subtile Info.
-  let flavor = "Alltag";
-  if (item.rarity === 'rare') flavor = "Besonderer Moment";
-  if (item.rarity === 'ultra') flavor = "Selten & Kostbar";
-  if (item.rarity === 'legendary') flavor = "Existentiell";
+  // Roman Difficulty
+  const roman = ["I", "II", "III", "IV"];
+  el.diff.innerText = roman[item.difficulty - 1];
 
-  ui.desc.innerText = flavor;
-
-  // Rarity Badge (Deutsch)
-  const map = { common: "Gewöhnlich", rare: "Selten", ultra: "Ultra", legendary: "Legendär" };
-  ui.badge.innerText = map[item.rarity];
-
-  // CSS Attribute
-  ui.card.setAttribute('data-rarity', item.rarity);
-
-  // Animation reset
-  ui.card.classList.remove('pop-in');
-  void ui.card.offsetWidth;
-  ui.card.classList.add('pop-in');
+  // Attributes & Animation
+  el.card.setAttribute('data-rarity', item.rarity);
+  el.card.classList.remove('spawn');
+  void el.card.offsetWidth; // Reflow
+  el.card.classList.add('spawn');
 }
 
-function triggerMetaMessage() {
-  // Zufälliger, netter Satz bei Skip
-  const msg = CONFIG.metaMessages[Math.floor(Math.random() * CONFIG.metaMessages.length)];
-  ui.status.innerText = msg;
-  ui.status.classList.add('visible');
-  setTimeout(() => ui.status.classList.remove('visible'), 2500);
-}
-
-function checkLevelUp() {
-  // Simpel: Level = Wurzel aus XP / 10? Oder feste Stufen.
-  // Level Up alle 250 XP
-  const needed = state.level * 250;
-  if (state.xp >= needed) {
-    state.level++;
-    ui.overlayNum.innerText = state.level;
-    ui.overlay.classList.add('visible');
-    setTimeout(() => ui.overlay.classList.remove('visible'), 2000);
-    save();
-  }
-}
-
-// Actions
 function unlock() {
-  if (!state.currentItem) return;
+  const item = state.currentItem;
+  if (!item) return;
 
-  state.skipStreak = 0; // Reset Streak
-  state.unlocked.push(state.currentItem.id);
-
-  // XP
-  const gain = CONFIG.xpMap[state.currentItem.rarity] || 10;
-  state.xp += gain;
-
+  // Save
+  state.unlocked.add(item.id);
   save();
-  checkLevelUp();
 
+  // Sound & FX
+  audio.play(item.rarity);
+  el.card.classList.add('pulse');
+  el.overlay.classList.add('visible');
+
+  // Next
+  el.btnUnlock.disabled = true;
   setTimeout(() => {
-    renderCard(getNextItem());
-  }, 200);
+    el.overlay.classList.remove('visible');
+    el.card.classList.remove('pulse');
+    el.btnUnlock.disabled = false;
+    render(getNext());
+  }, 900);
 }
 
 function skip() {
-  // "Vielleicht später"
-  state.skipStreak++;
-
-  // Meta Moment bei jedem 3. Skip oder zufällig
-  if (state.skipStreak > 2 || Math.random() > 0.7) {
-    triggerMetaMessage();
-  }
-
-  // Neue Karte nach kurzem Delay
-  ui.card.classList.add('shake'); // Leichtes Feedback "Nein"
-  setTimeout(() => {
-    ui.card.classList.remove('shake');
-    renderCard(getNextItem());
-  }, 300);
+  el.card.classList.remove('spawn');
+  void el.card.offsetWidth;
+  render(getNext());
 }
 
-// Init
-document.getElementById('btn-unlock').addEventListener('click', unlock);
-document.getElementById('btn-skip').addEventListener('click', skip);
+function toggleSound() {
+  CONFIG.soundEnabled = !CONFIG.soundEnabled;
+  el.soundOn.classList.toggle('hidden', !CONFIG.soundEnabled);
+  el.soundOff.classList.toggle('hidden', CONFIG.soundEnabled);
+}
 
+// --- INIT ---
+el.btnUnlock.addEventListener('click', unlock);
+el.btnSkip.addEventListener('click', skip);
+document.getElementById('btn-sound').addEventListener('click', toggleSound);
 document.getElementById('btn-share').addEventListener('click', () => {
-  if (state.currentItem) navigator.clipboard.writeText(state.currentItem.title);
-  ui.status.innerText = "Kopiert";
-  ui.status.classList.add('visible');
-  setTimeout(() => ui.status.classList.remove('visible'), 1500);
+  if (state.currentItem) {
+    navigator.clipboard.writeText(`Ich habe gerade '${state.currentItem.title}' freigeschaltet.`);
+    el.toast.classList.add('visible');
+    setTimeout(() => el.toast.classList.remove('visible'), 1500);
+  }
 });
 
 load();
-updateUI();
-renderCard(getNextItem());
+updateStats();
+render(getNext());

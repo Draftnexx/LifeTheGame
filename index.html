@@ -4,66 +4,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Achievement: The Game</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Life Unlocked</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <div class="app-layout">
+
+    <!-- Header -->
     <header>
-      <div class="app-title">ACHIEVEMENT: THE GAME</div>
-      <div class="level-row">
-        <span>LVL <span class="level-num" id="lvl-display">1</span></span>
-        <span>•</span>
-        <span id="stats-display">0 / 150</span>
-      </div>
+      <div class="brand">LIFE: UNLOCKED</div>
+      <div class="progress-display">FORTSCHRITT: 97%</div>
     </header>
 
+    <!-- Main Stage -->
     <main>
-      <div class="card-container">
+      <div id="card-container" class="card-container">
         <div id="card" class="card">
-          <div class="rarity-indicator"></div>
-          <div class="card-inner">
-            <div class="meta">
-              <span id="badge-rarity" class="badge">GEWÖHNLICH</span>
+          <div class="card-glow"></div>
+          <div class="card-border"></div>
+          <div class="card-content">
+            <div class="meta-row">
+              <span id="badge-rarity" class="badge">COMMON</span>
             </div>
-            <h1 id="card-title">Lädt...</h1>
-            <p id="card-desc">...</p>
+            <h1 id="card-title">Initialisiere...</h1>
+            <p id="card-difficulty" class="difficulty-text">I</p>
           </div>
         </div>
       </div>
 
-      <div class="status-area">
-        <div id="status-msg" class="status-msg">Auch das zählt.</div>
+      <!-- Overlay Feedback -->
+      <div id="unlock-overlay" class="unlock-overlay">
+        <div class="unlock-text">ACHIEVEMENT<br><span class="highlight">UNLOCKED</span></div>
       </div>
     </main>
 
+    <!-- Controls -->
     <footer>
-      <div class="btn-group">
-        <button id="btn-unlock" class="btn-main">Erledigt</button>
-        <button id="btn-skip" class="btn-skip">Vielleicht später</button>
-      </div>
+      <button id="btn-unlock" class="btn-primary">ERLEDIGT</button>
+      <button id="btn-skip" class="btn-secondary">HEUTE NICHT</button>
 
-      <div class="bottom-row">
-        <span>Lebens-Log</span>
-        <button id="btn-share" class="icon-btn">🔗</button>
+      <div class="status-bar">
+        <div class="stat-item" id="real-stats">0 / 60</div>
+
+        <div class="settings-group">
+          <button id="btn-sound" class="icon-btn" aria-label="Ton an/aus">
+            <!-- Simple SVG Speaker Icon -->
+            <svg class="icon sound-on" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M11 5L6 9H2v6h4l5 4V5zM15.54 8.46a5 5 0 0 1 0 7.07M19.07 4.93a10 10 0 0 1 0 14.14" fill="none"
+                stroke="currentColor" stroke-width="2" />
+            </svg>
+            <svg class="icon sound-off hidden" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M11 5L6 9H2v6h4l5 4V5zM23 9l-6 6M17 9l6 6" fill="none" stroke="currentColor" stroke-width="2" />
+            </svg>
+          </button>
+          <button id="btn-share" class="icon-btn" aria-label="Teilen">
+            <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+              <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+              <polyline points="16 6 12 2 8 6" />
+              <line x1="12" y1="2" x2="12" y2="15" fill="none" stroke="currentColor" stroke-width="2" />
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
   </div>
 
-  <!-- Level Up Overlay -->
-  <div id="overlay" class="overlay">
-    <div>
-      <span class="lvl-text" id="lvl-overlay-num">2</span>
-      <span class="lvl-sub">LEVEL UP</span>
-    </div>
-  </div>
+  <div id="toast" class="toast">Kopiert</div>
 
-  <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
 
