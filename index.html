@@ -4,79 +4,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Life Unlocked</title>
+  <title>Achievement: The Game</title>
+
+  <!-- Modern Font: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- Ambient Background -->
-  <div class="particles-bg" id="particles-bg"></div>
+  <div class="app-layout">
 
-  <div class="app-container">
-
-    <!-- Header mit XP Bar -->
+    <!-- Header -->
     <header>
-      <div class="top-row">
-        <div class="brand">LIFE <span class="accent">OS</span></div>
-        <div class="level-display">LVL <span id="lvl-num">1</span></div>
-      </div>
-      <div class="xp-track">
-        <div class="xp-fill" id="xp-bar" style="width: 0%"></div>
+      <div class="app-title">ACHIEVEMENT: <span class="highlight">THE GAME</span></div>
+
+      <!-- XP / Level Info -->
+      <div class="level-container" id="level-container">
+        <div class="level-badge">LVL <span id="lvl-display">1</span></div>
+        <div class="xp-bar-bg">
+          <div class="xp-bar-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
       </div>
       <div class="xp-text"><span id="xp-current">0</span> / <span id="xp-next">100</span> XP</div>
     </header>
 
-    <!-- Main Card Area -->
+    <!-- Main Content -->
     <main>
-      <div class="card-stack">
+      <div class="card-container">
         <div id="card" class="card">
-          <div class="card-glow"></div>
+          <!-- Rarity Stripe (Left Border) -->
+          <div id="rarity-stripe" class="rarity-stripe"></div>
+
           <div class="card-content">
-            <div class="card-header">
+            <div class="meta-row">
               <span id="badge-rarity" class="badge">COMMON</span>
-              <span id="badge-daily" class="badge daily hidden">DAILY</span>
+              <span id="badge-xp" class="xp-badge">+10 XP</span>
             </div>
-            <h1 id="title">System Start...</h1>
-            <p id="desc">Initialisiere Lebenssimulation.</p>
-            <div class="xp-reward">+ <span id="xp-reward-val">10</span> XP</div>
+
+            <h1 id="card-title">Lade Achievements...</h1>
+            <p id="card-desc">Bereite Datenbank vor.</p>
+
+            <div id="badge-daily" class="daily-tag hidden">📅 DAILY QUEST</div>
           </div>
         </div>
       </div>
+
+      <!-- Status Message area (e.g. "Keine neuen Items mehr") -->
+      <div id="status-msg" class="status-message"></div>
     </main>
 
-    <!-- Controls -->
+    <!-- Footer / Controls -->
     <footer>
-      <button id="btn-main" class="btn-primary">
-        <span class="btn-txt">ERLEDIGT</span>
-        <span class="btn-shine"></span>
+      <button id="btn-unlock" class="btn-primary">
+        ACHIEVEMENT FREISCHALTEN
       </button>
 
-      <div class="toolbar">
-        <button id="btn-share" class="tool-btn" aria-label="Teilen">
-          <span class="icon">🔗</span>
-        </button>
+      <div class="secondary-controls">
+        <div class="stat-box">
+          <span class="stat-label">FREIGESCHALTET</span>
+          <span class="stat-value" id="stats-total">0 / 1000</span>
+        </div>
 
-        <div class="stats-counter" id="total-stats">0 / 1000</div>
-
-        <button id="btn-filter" class="tool-btn active" aria-label="Filter">
-          <span class="filter-icon">⚡</span>
-        </button>
+        <div class="actions">
+          <button id="btn-share" class="icon-btn" aria-label="Teilen">🔗</button>
+          <!-- Toggle Switch -->
+          <label class="toggle-switch">
+            <input type="checkbox" id="toggle-filter" checked>
+            <span class="slider"></span>
+            <span class="label-text">NUR NEUE</span>
+          </label>
+        </div>
       </div>
+
+      <div class="version">v2.1 • Offline Ready</div>
     </footer>
+
   </div>
 
-  <!-- Level Up Overlay -->
-  <div id="overlay-lvl" class="overlay">
-    <div class="overlay-content">
-      <div class="lvl-up-txt">LEVEL UP!</div>
-      <div class="lvl-big" id="overlay-lvl-num">2</div>
+  <!-- Overlays -->
+  <div id="toast" class="toast">Kopiert!</div>
+  <div id="levelup-overlay" class="levelup-overlay">
+    <div class="levelup-content">
+      <div class="levelup-title">LEVEL UP!</div>
+      <div class="levelup-num" id="levelup-num">2</div>
     </div>
   </div>
 
+  <!-- Data & App -->
   <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
