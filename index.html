@@ -5,96 +5,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Achievement: The Game</title>
-
-  <!-- Modern Font: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <div class="app-layout">
-
-    <!-- Header -->
     <header>
-      <div class="app-title">ACHIEVEMENT: <span class="highlight">THE GAME</span></div>
-
-      <!-- XP / Level Info -->
-      <div class="level-container" id="level-container">
-        <div class="level-badge">LVL <span id="lvl-display">1</span></div>
-        <div class="xp-bar-bg">
-          <div class="xp-bar-fill" id="xp-bar" style="width: 0%"></div>
-        </div>
+      <div class="app-title">ACHIEVEMENT: THE GAME</div>
+      <div class="level-row">
+        <span>LVL <span class="level-num" id="lvl-display">1</span></span>
+        <span>•</span>
+        <span id="stats-display">0 / 150</span>
       </div>
-      <div class="xp-text"><span id="xp-current">0</span> / <span id="xp-next">100</span> XP</div>
     </header>
 
-    <!-- Main Content -->
     <main>
       <div class="card-container">
         <div id="card" class="card">
-          <!-- Rarity Stripe (Left Border) -->
-          <div id="rarity-stripe" class="rarity-stripe"></div>
-
-          <div class="card-content">
-            <div class="meta-row">
-              <span id="badge-rarity" class="badge">COMMON</span>
-              <span id="badge-xp" class="xp-badge">+10 XP</span>
+          <div class="rarity-indicator"></div>
+          <div class="card-inner">
+            <div class="meta">
+              <span id="badge-rarity" class="badge">GEWÖHNLICH</span>
             </div>
-
-            <h1 id="card-title">Lade Achievements...</h1>
-            <p id="card-desc">Bereite Datenbank vor.</p>
-
-            <div id="badge-daily" class="daily-tag hidden">📅 DAILY QUEST</div>
+            <h1 id="card-title">Lädt...</h1>
+            <p id="card-desc">...</p>
           </div>
         </div>
       </div>
 
-      <!-- Status Message area (e.g. "Keine neuen Items mehr") -->
-      <div id="status-msg" class="status-message"></div>
+      <div class="status-area">
+        <div id="status-msg" class="status-msg">Auch das zählt.</div>
+      </div>
     </main>
 
-    <!-- Footer / Controls -->
     <footer>
-      <button id="btn-unlock" class="btn-primary">
-        ACHIEVEMENT FREISCHALTEN
-      </button>
-
-      <div class="secondary-controls">
-        <div class="stat-box">
-          <span class="stat-label">FREIGESCHALTET</span>
-          <span class="stat-value" id="stats-total">0 / 1000</span>
-        </div>
-
-        <div class="actions">
-          <button id="btn-share" class="icon-btn" aria-label="Teilen">🔗</button>
-          <!-- Toggle Switch -->
-          <label class="toggle-switch">
-            <input type="checkbox" id="toggle-filter" checked>
-            <span class="slider"></span>
-            <span class="label-text">NUR NEUE</span>
-          </label>
-        </div>
+      <div class="btn-group">
+        <button id="btn-unlock" class="btn-main">Erledigt</button>
+        <button id="btn-skip" class="btn-skip">Vielleicht später</button>
       </div>
 
-      <div class="version">v2.1 • Offline Ready</div>
+      <div class="bottom-row">
+        <span>Lebens-Log</span>
+        <button id="btn-share" class="icon-btn">🔗</button>
+      </div>
     </footer>
-
   </div>
 
-  <!-- Overlays -->
-  <div id="toast" class="toast">Kopiert!</div>
-  <div id="levelup-overlay" class="levelup-overlay">
-    <div class="levelup-content">
-      <div class="levelup-title">LEVEL UP!</div>
-      <div class="levelup-num" id="levelup-num">2</div>
+  <!-- Level Up Overlay -->
+  <div id="overlay" class="overlay">
+    <div>
+      <span class="lvl-text" id="lvl-overlay-num">2</span>
+      <span class="lvl-sub">LEVEL UP</span>
     </div>
   </div>
 
-  <!-- Data & App -->
   <script src="data.js"></script>
   <script src="app.js"></script>
 </body>

@@ -1,301 +1,189 @@
 // app.js
-/* Achievement: The Game - Core Logic v2.0 */
+// Logik für ein echtes, ruhiges Achievement-System
 
 // --- Config ---
 const CONFIG = {
-  xpTable: { common: 10, rare: 50, ultra: 200 },
-  baseXp: 100, // XP for Level 2
-  growthFactor: 1.5,
-  storageKey: 'achievement_game_save'
+  // Difficulty als Multiplikator für XP? Nein, wir halten es simpel.
+  // difficulty: 1 (Common) bis 4 (Legendary)
+  xpMap: { common: 10, rare: 50, ultra: 150, legendary: 500 },
+  storageKey: 'archilife_save_v1',
+  // Skip-Messages für den Meta-Moment (wertschätzend)
+  metaMessages: [
+    "Auch das zählt.",
+    "Kein Druck.",
+    "Alles zu seiner Zeit.",
+    "Du musst nichts beweisen.",
+    "Heute nicht ist auch okay.",
+    "Atmen reicht.",
+    "Ruhe bewahren.",
+    "Passt schon."
+  ]
 };
 
-// --- State Management ---
+// --- State ---
 let state = {
-  unlockedItems: [], // Array of Strings (IDs)
-  xp: 0,
+  unlocked: [], // IDs
   level: 1,
-  filterNew: true, // "Nur neue" checkbox
-  currentItem: null,
-  // Load from storage
-  load: function () {
-    try {
-      const raw = localStorage.getItem(CONFIG.storageKey);
-      if (raw) {
-        const tv = JSON.parse(raw);
-        this.unlockedItems = tv.unlockedItems || [];
-        this.xp = tv.xp || 0;
-        this.level = tv.level || 1;
-      }
-    } catch (e) { console.error("Savegame corrup, starting fresh"); }
-  },
-  save: function () {
-    localStorage.setItem(CONFIG.storageKey, JSON.stringify({
-      unlockedItems: this.unlockedItems,
-      xp: this.xp,
-      level: this.level
-    }));
-    ui.updateStats();
-  }
+  xp: 0,
+  skipStreak: 0,
+  currentItem: null
 };
 
-// --- UI Controller ---
+// --- DOM Cache ---
 const ui = {
-  // Elements
   card: document.getElementById('card'),
-  cardTitle: document.getElementById('card-title'),
-  cardDesc: document.getElementById('card-desc'),
-  stripe: document.getElementById('rarity-stripe'),
-  badgeRarity: document.getElementById('badge-rarity'),
-  badgeXp: document.getElementById('badge-xp'),
-  badgeDaily: document.getElementById('badge-daily'),
-  btn: document.getElementById('btn-unlock'),
-  statsTotal: document.getElementById('stats-total'),
-  xpBar: document.getElementById('xp-bar'),
-  xpCurrent: document.getElementById('xp-current'),
-  xpNext: document.getElementById('xp-next'),
-  lvlDisplay: document.getElementById('lvl-display'),
-  msg: document.getElementById('status-msg'),
-
-  updateStats: function () {
-    // Level Calc
-    const nextLvlXp = logic.getXpForNextLevel(state.level);
-
-    // XP in Current Level (Visual Bar)
-    // Complex logic simplified: We sum up XP of all previous levels to get the "floor" of current level
-    let xpFloor = 0;
-    for (let i = 1; i < state.level; i++) {
-      xpFloor += logic.getXpForNextLevel(i);
-    }
-
-    let xpInLevel = Math.max(0, state.xp - xpFloor);
-    let xpNeeded = Number(nextLvlXp).toFixed(0); // Actually correct is nextLvlXp for scaling
-
-    // Wait, scaling logic:
-    // Level 1 needs 100 XP. User has 50. Bar = 50%.
-    // Level 2 needs 150 XP. User has 100+25. Bar 25 / 150? Yes.
-
-    const percent = Math.min(100, (xpInThisLevelOnly(state.level, state.xp) / xpForThisLevel(state.level)) * 100);
-
-    this.xpBar.style.width = `${percent}%`;
-
-    this.lvlDisplay.textContent = state.level;
-    this.xpCurrent.textContent = state.xp;
-    this.xpNext.textContent = logic.getTotalXpThreshold(state.level); // Show total needed for next level
-
-    this.statsTotal.textContent = `${state.unlockedItems.length} / ${ALL_ITEMS.length}`;
-  },
-
-  renderCard: function (item) {
-    if (!item) {
-      // Empty State
-      this.cardTitle.textContent = "Keine Missionen";
-      this.cardDesc.textContent = "Du hast alle verfügbaren Achievements in diesem Filter erledigt.";
-      this.badgeRarity.textContent = "EMPTY";
-      this.btn.classList.add('disabled');
-      this.btn.textContent = "NICHTS ZU TUN";
-      this.card.removeAttribute('data-rarity');
-      return;
-    }
-
-    this.btn.classList.remove('disabled');
-
-    // Content
-    this.cardTitle.textContent = item.title;
-    this.cardDesc.textContent = item.text;
-
-    // Badges
-    this.badgeRarity.textContent = item.rarity;
-    const reward = CONFIG.xpTable[item.rarity] || 10;
-    this.badgeXp.textContent = `+${reward} XP`;
-
-    if (item.daily) this.badgeDaily.classList.remove('hidden');
-    else this.badgeDaily.classList.add('hidden');
-
-    // Styles
-    this.card.setAttribute('data-rarity', item.rarity);
-
-    // Button State
-    if (state.unlockedItems.includes(item.id)) {
-      this.btn.textContent = "BEREITS ERLEDIGT ✅";
-    } else {
-      this.btn.textContent = "ACHIEVEMENT FREISCHALTEN";
-    }
-
-    // Status Msg
-    if (state.filterNew && item) {
-      this.msg.textContent = "";
-    }
-
-    // Animation Reset
-    this.card.classList.remove('pop-in');
-    void this.card.offsetWidth; // Force Reflow
-    this.card.classList.add('pop-in');
-  },
-
-  triggerUnlockAnim: function () {
-    this.card.classList.add('unlocking');
-    setTimeout(() => this.card.classList.remove('unlocking'), 500);
-  },
-
-  showToast: function (txt) {
-    const t = document.getElementById('toast');
-    t.innerText = txt;
-    t.classList.add('visible');
-    setTimeout(() => t.classList.remove('visible'), 2000);
-  },
-
-  showLevelUp: function (newLevel) {
-    const el = document.getElementById('levelup-overlay');
-    document.getElementById('levelup-num').textContent = newLevel;
-    el.classList.add('visible');
-    setTimeout(() => el.classList.remove('visible'), 2500);
-  }
+  title: document.getElementById('card-title'),
+  desc: document.getElementById('card-desc'),
+  badge: document.getElementById('badge-rarity'),
+  status: document.getElementById('status-msg'),
+  lvl: document.getElementById('lvl-display'),
+  stats: document.getElementById('stats-display'),
+  overlay: document.getElementById('overlay'),
+  overlayNum: document.getElementById('lvl-overlay-num')
 };
 
-// --- Game Logic ---
-const logic = {
-  // XP math
-  getXpForNextLevel: function (lvl) {
-    // Returns how much XP a single level *spans*
-    // Lvl 1: 100
-    // Lvl 2: 150
-    return Math.floor(CONFIG.baseXp * Math.pow(CONFIG.growthFactor, lvl - 1));
-  },
+// --- Logic ---
 
-  getTotalXpThreshold: function (targetLvl) {
-    // Returns total XP needed to REACH targetLvl+1
-    let total = 0;
-    for (let i = 1; i <= targetLvl; i++) {
-      total += this.getXpForNextLevel(i);
+function load() {
+  try {
+    const d = JSON.parse(localStorage.getItem(CONFIG.storageKey));
+    if (d) {
+      state.unlocked = d.unlocked || [];
+      state.level = d.level || 1;
+      state.xp = d.xp || 0;
     }
-    return total;
-  },
+  } catch (e) { }
+}
 
-  checkLevelUp: function () {
-    // Check if current XP exceeds threshold for next level
-    const threshold = this.getTotalXpThreshold(state.level);
-    if (state.xp >= threshold) {
-      state.level++;
-      ui.showLevelUp(state.level);
-      // Save immediately happens in main flow
-    }
-  },
+function save() {
+  localStorage.setItem(CONFIG.storageKey, JSON.stringify({
+    unlocked: state.unlocked,
+    level: state.level,
+    xp: state.xp
+  }));
+  updateUI();
+}
 
-  getNextItem: function () {
-    let pool = ALL_ITEMS;
+function updateUI() {
+  ui.lvl.innerText = state.level;
+  ui.stats.innerText = `${state.unlocked.length} / ${ALL_ITEMS.length}`;
+}
 
-    // Filter
-    if (state.filterNew) {
-      pool = ALL_ITEMS.filter(item => !state.unlockedItems.includes(item.id));
-    }
+function getNextItem() {
+  // Filter Items: Nicht unlocked
+  const pool = ALL_ITEMS.filter(i => !state.unlocked.includes(i.id));
+  if (pool.length === 0) return null; // Game Over (oder Prestige)
 
-    // Auto-Fallback logic
-    if (pool.length === 0) {
-      if (state.filterNew) {
-        // If filter is on but empty, show toast and switch filter off? 
-        // No, just return nothing or switch pool temporarily?
-        // Let's notify user visually in UI instead (Done in renderCard)
-        return null;
-      }
-    }
+  // Weighted Random?
+  // Hier simpel: Random aus Pool.
+  // Optional: Seltene seltener machen?
+  // Der User hat schon eine Liste sortiert, wir nehmen einfach random einen verfügbaren.
+  return pool[Math.floor(Math.random() * pool.length)];
+}
 
-    // Weighted Random? Or just random.
-    // Let's keep it simple random for now as pool is big.
-    const rnd = Math.floor(Math.random() * pool.length);
-    return pool[rnd];
-  },
-
-  unlockCurrent: function () {
-    if (!state.currentItem) return;
-    const item = state.currentItem;
-
-    if (state.unlockedItems.includes(item.id)) {
-      // Already unlocked -> Just skip
-      this.cycle();
-      return;
-    }
-
-    // Logic
-    state.unlockedItems.push(item.id);
-    const gain = CONFIG.xpTable[item.rarity] || 10;
-    state.xp += gain;
-
-    this.checkLevelUp();
-    state.save();
-
-    // Visuals
-    ui.triggerUnlockAnim();
-
-    // Next
-    setTimeout(() => {
-      this.cycle();
-    }, 500);
-  },
-
-  cycle: function () {
-    const item = this.getNextItem();
-
-    // Fallback: If Filter New is on, but returns null, it means we are "Done" with new items.
-    // We should explicitly handle this state.
-    if (!item && state.filterNew) {
-      // Switch filter off automatically to keep game running?
-      // Or show "All new done"
-      // User prefers flow. Let's auto-disable filter if empty and notify.
-      const remainingTotal = ALL_ITEMS.filter(i => !state.unlockedItems.includes(i.id)).length;
-      if (remainingTotal === 0) {
-        alert("Wow! Du hast ALLE 1000 Achievements freigeschaltet. Reset?");
-        // Reset logic here or just let them bask in glory
-      }
-    }
-
-    state.currentItem = item;
-    ui.renderCard(item);
+function renderCard(item) {
+  if (!item) {
+    ui.title.innerText = "Alles erledigt";
+    ui.desc.innerText = "Du hast das Ende erreicht.";
+    document.getElementById('btn-unlock').disabled = true;
+    document.getElementById('btn-skip').disabled = true;
+    return;
   }
-};
 
-// Helper for bar calc
-function xpForThisLevel(lvl) {
-  return logic.getXpForNextLevel(lvl);
+  state.currentItem = item;
+
+  ui.title.innerText = item.title;
+  // Difficulty als subtilen Text/Desc nutzen?
+  // User hat keine Descriptions geliefert, außer Titel.
+  // Wir nutzen den Rarity-Text als subtile Info.
+  let flavor = "Alltag";
+  if (item.rarity === 'rare') flavor = "Besonderer Moment";
+  if (item.rarity === 'ultra') flavor = "Selten & Kostbar";
+  if (item.rarity === 'legendary') flavor = "Existentiell";
+
+  ui.desc.innerText = flavor;
+
+  // Rarity Badge (Deutsch)
+  const map = { common: "Gewöhnlich", rare: "Selten", ultra: "Ultra", legendary: "Legendär" };
+  ui.badge.innerText = map[item.rarity];
+
+  // CSS Attribute
+  ui.card.setAttribute('data-rarity', item.rarity);
+
+  // Animation reset
+  ui.card.classList.remove('pop-in');
+  void ui.card.offsetWidth;
+  ui.card.classList.add('pop-in');
 }
-function xpInThisLevelOnly(lvl, totalXp) {
-  let floor = 0;
-  for (let i = 1; i < lvl; i++) floor += logic.getXpForNextLevel(i);
-  return Math.max(0, totalXp - floor);
+
+function triggerMetaMessage() {
+  // Zufälliger, netter Satz bei Skip
+  const msg = CONFIG.metaMessages[Math.floor(Math.random() * CONFIG.metaMessages.length)];
+  ui.status.innerText = msg;
+  ui.status.classList.add('visible');
+  setTimeout(() => ui.status.classList.remove('visible'), 2500);
 }
 
-// --- Init & Events ---
+function checkLevelUp() {
+  // Simpel: Level = Wurzel aus XP / 10? Oder feste Stufen.
+  // Level Up alle 250 XP
+  const needed = state.level * 250;
+  if (state.xp >= needed) {
+    state.level++;
+    ui.overlayNum.innerText = state.level;
+    ui.overlay.classList.add('visible');
+    setTimeout(() => ui.overlay.classList.remove('visible'), 2000);
+    save();
+  }
+}
 
-// Button Unlock
-ui.btn.addEventListener('click', () => logic.unlockCurrent());
+// Actions
+function unlock() {
+  if (!state.currentItem) return;
 
-// Button Share
+  state.skipStreak = 0; // Reset Streak
+  state.unlocked.push(state.currentItem.id);
+
+  // XP
+  const gain = CONFIG.xpMap[state.currentItem.rarity] || 10;
+  state.xp += gain;
+
+  save();
+  checkLevelUp();
+
+  setTimeout(() => {
+    renderCard(getNextItem());
+  }, 200);
+}
+
+function skip() {
+  // "Vielleicht später"
+  state.skipStreak++;
+
+  // Meta Moment bei jedem 3. Skip oder zufällig
+  if (state.skipStreak > 2 || Math.random() > 0.7) {
+    triggerMetaMessage();
+  }
+
+  // Neue Karte nach kurzem Delay
+  ui.card.classList.add('shake'); // Leichtes Feedback "Nein"
+  setTimeout(() => {
+    ui.card.classList.remove('shake');
+    renderCard(getNextItem());
+  }, 300);
+}
+
+// Init
+document.getElementById('btn-unlock').addEventListener('click', unlock);
+document.getElementById('btn-skip').addEventListener('click', skip);
+
 document.getElementById('btn-share').addEventListener('click', () => {
-  if (state.currentItem) {
-    const text = `🏆 Achievement: The Game\nLvl ${state.level} • "${state.currentItem.title}"\n#AchievementTheGame`;
-    navigator.clipboard.writeText(text).then(() => ui.showToast("Text kopiert!"));
-  }
+  if (state.currentItem) navigator.clipboard.writeText(state.currentItem.title);
+  ui.status.innerText = "Kopiert";
+  ui.status.classList.add('visible');
+  setTimeout(() => ui.status.classList.remove('visible'), 1500);
 });
 
-// Toggle Filter
-document.getElementById('toggle-filter').addEventListener('change', (e) => {
-  state.filterNew = e.target.checked;
-  logic.cycle();
-});
-
-// Secret Reset (Triple click Level Badge)
-let clickCount = 0;
-document.getElementById('level-container').addEventListener('click', () => {
-  clickCount++;
-  if (clickCount > 5) {
-    if (confirm("RESET ALL PROGRESS?")) {
-      localStorage.clear();
-      location.reload();
-    }
-    clickCount = 0;
-  }
-});
-
-// Start
-state.load();
-logic.cycle();
-ui.updateStats();
+load();
+updateUI();
+renderCard(getNextItem());
